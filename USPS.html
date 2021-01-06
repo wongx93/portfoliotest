@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>erin wong.</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+      />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    
+    </head>
+
+  
+<body>
+
+  <script src="script.js"></script>
+
+  <header class="header">
+  
+    <a href="index.html" class="logo">erin wong.</a>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="work.html" class="selected">work</a></li>
+      <li><a href="play.html">play</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="Erin Wong Resume 2020.pdf" target="_blank">resumé</a></li>
+    </ul>
+  </header>
+
+
+
+
+
+<div class="top">
+
+
+<nav class="sidebar" id="MainNav">
+
+   <a class="sidebar__link" href="#intro" data-scroll"intro">I. Intro</a></li>
+    <br>
+
+<a href="#analysis" data-scroll"analysis">II. User Interface Analysis & Testing</a></li>
+    <br>
+
+<a href="#architecture" data-scroll"architecture">III. Information Architecture</a></li>
+    <br>
+  
+   <a href="#design" data-scroll"design">IV. Responsive Design, Prototyping, & Testing </a>
+    <br>
+
+<a href="#final" data-scroll"final">V. Final Thoughts </a></li>
+<br>
+<div class="next"><a href="Mappetizer.html">Next: <br>Mappetizer Travel App Case Study →</a></div>
+  </nav>
+</nav>
+</div>  
+
+<div class="breadcrumb"><a href="work.html">work</a> > <a href="USPS.html" class="selected">USPS Case Study </a></div>
+
+  <div class="content">
+
+
+
+<div class="casestudytitle" id="casestudytitle">
+
+    <h1> USPS Redesign</h1>
+ Responsive Web Design Case Study
+
+ <div class="descrip">
+    <p>
+    <span>#UX UI</span>
+     <span>#accessibility</span>
+     <span>#responsive web</span>
+        </div>
+    </div>
+
+    <div class="page-section hero" id="intro">
+      <center>
+        <div class="USPSimg">
+      <img src="casestudy/USPS.png">
+    </div> 
+    </center>
+    
+      <h1>I. INTRO</h1></p>
+
+    <h5>OVERVIEW</h5></p>
+    <p>USPS.com’s purpose is to foster an online presence for local United States Post Office outposts and to facilitate customer service exchanges that take place in physical office locations. 
+      Its target user base is rooted in public consumers who are looking to manage their personal/business mail transactions via interactions such as <b>creating shipping labels, purchasing postal products, tracking mail & packages,</b> and <b>receiving estimates</b> based on destination and time, at both an individual and business scale.
+      <h5><b></b>CHALLENGE</b></h5></p>
+      <p>The audience base that USPS.com serves is as wide and varied as the United States population itself. <b>There is no ‘typical’ USPS user so much as there is no one defined, typical American. </b>
+
+        <p>As a federal agency providing a basic service to the gamut of the entire country’s population, its website needed to be easily maneuverable and accessible to an enormously diverse pool of users -- ranging from all levels in technological savviness, language fluency, and general understanding of how the postal service works. 
+        </p>
+
+        <h5>GOALS</h5></p>
+        <p>   <div data-aos="fade-up"> 
+          <div class="USPSimg">
+          <img src="usps1.png"></div></div>  
+          <p>
+          With this in mind, my goal as a UX designer was to create a responsive redesign for USPS.com that understood the breadth of its customer base and was widely usable with as little learning curve or intimidation as possible. 
+
+          <p> I aimed to fully comprehend what <b>common behaviors</b> and and shared characteristics lay beneath the needs of its site’s users, <b>despite physical, cognitive, & sociocultural differences that spanned between them.</b>
+          
+            <p>I sought to do this by breaking down the current website design via heuristic evaluation and analysis, and by conducting interviews and testing sessions in order to understand underlying mental models behind our users and to shape design decisions.  
+        
+              <div data-aos="fade-up">
+                     <div class="quote">
+                       “The first step toward the goal of universal usability is to discard the notion that we are designing for a ‘typical’ user. Universal usability accounts for users of all ages, experience levels, and physical or sensory limitations.”</h3>
+ <div class="quote2">
+                       - Patrick J. Lynch & Sarah Horton<br>Web Style Guide, 4th Edition: Foundations of User Experience Design</div></div></div>
+
+  <h5><b>PROTO-PERSONA DEVLEOPMENT</b></h5>
+Considering these assumptions about our user base, I crafted two proto-personas with vastly different identities; but both had some basic needs to be fulfilled via the postal service. <b>How might they navigate through the site in order to achieve their respective goals?</b></p>
+
+
+  <div class="slideshow-container">
+    <div class="mySlides animated">
+      <div class="slide-number">1/2</div>
+      <div class="USPSimg"><img src="usps2.png"></div>
+    </div>
+  
+    <div class="mySlides animated">
+      <div class="slide-number">2/2</div>
+      <div class="USPSimg"><img src="usps3.png"></div>
+    </div>
+  
+    <a class="slide-prev" onclick="plusSlides(-1)">❮</a>
+    <a class="slide-next" onclick="plusSlides(1)">❯</a>
+  </div>
+  
+  <div class="slide-dot-control">
+    <span class="slide-dot" onclick="currentSlide(1)"></span>
+    <span class="slide-dot" onclick="currentSlide(2)"></span>
+  </div>
+
+
+
+<div class="page-section hero" id="analysis">
+  <div data-aos="fade-up">
+  <h1>II. USER INTERFACE ANALYSIS & TESTING</h1></p>
+<h5>USER PATH & WIREFLOWS, HEURISTIC EVALUATION, & ACCESSIBILITY ANALYSIS</h5>
+I completed several preliminary wireflow annotation exercises in order to get fully acclimated with the user flows for some primary functions on the USPS website.  
+
+By breaking down the details and analyzing each visual element as it was presented on the page(s), I began to evaluate its success in its current context, both within the page itself and its placement within the overall schematics of the site map. 
+<P>
+<h6>Homepage analysis: bodystorming & general notes</h6>
+
+<a href="usps4 (1).png" class="image" data-toggle="lightbox"><img src="usps4 (1).png" width=45%></a>
+<a href="usps4 (2).png" class="image" data-toggle="lightbox"><img src="usps4 (2).png" width="45%"></a>
+<p></p>
+
+<h6>Tracking: heuristic evaluation </h6>
+
+
+<p>
+ 
+<h8>HELP USERS RECOGNIZE, DIAGNOSE, AND RECOVER FROM ERRORS</h8>
+<p></p>
+<div class="USPSimg">
+<a href="usps6.png" class="image" data-toggle="lightbox"><img src="usps6.png"></a></div>
+<p></p>
+When entering in an incorrect or invalid tracking number, it will take you the tracking status page with Status Not Available, suggesting to verify the number or to try again later.  
+
+  <p>Is their tracking number way over/under the designated digit limit of the barcode? Did they accidentally add an invalid character? Is there an opportunity to integrate a QR code scanner to mitigate copy+pasting and/or manually entering numbers? Ought we place the FAQ link into the main body field instead of right-hand nav, in order to immediately orient users for further troubleshooting? 
+    <p> <div data-aos="fade-left" data-os-duration="100000"><h9>Recommendation:</h9> Add further troubleshooting actions that a user can take immediately when receiving this message. </div>
+
+
+<p></p>
+<div data-aos="fade-right" data-os-duration="100000"> <h10>Goal:</h10> Optimize this page so that the user does not feel ‘stuck’ at the end of an attempted flow. </div>
+
+    <p>
+
+
+<h8>HELP & DOCUMENTATION</h8></p>
+
+<p>When troubleshooting where a package might be, the user is directed to a FAQ table. 
+  <a href="casestudy/help1.png" class="image" data-toggle="lightbox"><img src="casestudy/help1.png" width="45%" align="middle"></a>
+  <a href="casestudy/help2.png" class="image" data-toggle="lightbox"><img src="casestudy/help2.png" width="45%" align="middle"></a>
+  <p>  <div data-aos="fade-left" data-os-duration="100000">
+    <h9>Recommendation:</h9> Add a linked index/table of contents so users can find their specific problem immediately without having to scroll through and browse</div>
+<p></p>
+<div data-aos="fade-right" data-os-duration="100000"><h10>Goal:</h10> Prompt flexibility & efficiency of use and user control & freedom.  create an hierarchy of information with headers, body text, and calls-to-action in order to better visually digest and piece the blocks of information, as this is a text-heavy page.</div>
+
+<h5>ACCESSIBILITY</h5>
+A general accessibility analysis showed that, overall, the current USPS web design was successful in accommodating folks with disabilities, based on WCAG guiding principles dictating that web content ought to be <b>perceivable, operable, understandable, and robust. </b>
+<p> <h10>1. ALT TEXT:</h10> Appropriate alt text has been consistently applied to images, offering viable text alternatives to users who do not see the image and may be using a screen reader. 
+  <div class="USPSimg">
+  <a href="casestudy/alttext.gif" class="image" data-toggle="lightbox"><img src="casestudy/alttext.gif" alt="img" max></a></div>
+
+<h10>2. COLOR CONTRAST:</h10> The color palette passed contrast WCAG standards to accommodate those who cannot read text if there is not enough contrast between content + background. 
+    <div class="USPSimg">
+    <a href="casestudy/color.png" class="image" data-toggle="lightbox"><img src="casestudy/color.png" alt="img"></a></div>
+  
+    <h10>3. KEYBOARD NAVIGATION:</h10> Links were accessible via keyboard, including the drop-down menu navigation. 
+    <div class="USPSimg">
+    <a href="casestudy/keyboard.gif" class="image" data-toggle="lightbox"><img src="casestudy/keyboard.gif" alt="img"></a></div>
+  
+  By getting into the weeds and annotating visual components at an individual level, I was able to glean a better understanding on what worked well on the site, and what areas might need a bit of improvement. 
+
+
+    I utilized heuristic standards in order to make these evaluations against a set of established usability principles and best practices. I would then substantiate or challenge these judgments against user interviews and testing sessions to see if they held water. 
+    
+
+    <h5> USABILITY TESTING</h5>
+    <div data-aos="flip-right">
+    <div class="USPSimg2">
+ <img src="test1.png" width=20%>    
+<img src="test2.png" width=20% ;> </div></div>
+<p>
+    Participants were asked to execute tasks such as <b>track a package, create a shipping label,</b> and <b>try to get a shipping estimate for a package considering time and destination.</b>  
+<p>
+
+  <div data-aos="zoom-in" data-aos-duration="1500">
+  <div class="USPSimg">
+    <figure class="usertest">
+      <img src="casestudy/testing/user1.jpg" width="80">
+      <figcaption>Paria 
+        <br>Graphic Designer 
+        <br> Atlanta, GA
+
+
+      </figcaption>
+      </figure>
+
+      <figure class="usertest">
+        <img src="casestudy/testing/user2.png" width="80">
+        <figcaption>Ana 
+          <br>Student & Intern
+          <br> New York, NY
+  
+  
+        </figcaption>
+        </figure>
+  
+        <figure class="usertest">
+          <img src="casestudy/testing/user3.png" width="80">
+          <figcaption>Ashley
+            <br>Architect
+            <br> Minneapolis, MN
+    
+    
+          </figcaption>
+          </figure>
+        
+  
+          <figure class="usertest">
+            <img src="casestudy/testing/user4.jpg" width="80">
+            <figcaption>Cristian
+              <br>Real Estate Agent
+              <br> New York, NY 
+      
+      
+            </figcaption>
+            </figure>
+
+            <figure class="usertest">
+              <img src="casestudy/testing/user5.png" width="80">
+              <figcaption>Joe
+                <br>Teacher
+                <br> Danville, VT  
+        
+        
+              </figcaption>
+              </figure>
+
+              <figure class="usertest">
+                <img src="casestudy/testing/user6.png" width="80">
+                <figcaption>Melissa
+                  <br>Marketing
+                  <br> New York, NY 
+          
+          
+                </figcaption>
+                </figure>
+            
+              </div></div>
+
+              It was important to seek out a diversified participant test pool when it came to <b>age, gender, occupation, cultural &  socio-economic background, geographic location,</b> and  <b>living environment. </b>
+<p>
+              The purpose here was to shed light on commonalities between success and frustration points that weaved these different folks together in their shared experience of navigating the site.
+<p>              
+<h10>TESTING FINDINGS: ICONS & IMAGERY</h10>
+<div data-aos="flip-up" data-aos-duration="5">
+<div class="USPSimg"><img src="usps7.png"></div></div>
+
+When it comes to<b> icons</b>, users respond positively when a combination of both <b>text + imagery</b> is used, especially when the icons themselves aren’t necessarily widespreadly used or found in other web environments. 
+<p>
+Icons provide a visual indication of what something might do, and the corresponding text will <b>affirm & validate</b> that speculation within the user’s mindset. 
+<p>
+Multiple participants said that they would not know by icon or image alone what an action may represent.
+<p></p>
+
+<h10>TESTING FINDINGS: TRACKING PACKAGES</h10>
+<p></p>
+<div class="USPSimg"><img src="usps8.png">
+<div class="figcaption2">USPS tracking links & info integrated with e-commerce retailers
+</div></div>
+
+Tested users indicated that in real situations in their daily life, they use the <b>Track Packages</b> function the most frequently when they interact with USPS.com, mainly for tracking online purchases or returns. 
+<p>
+This was a function I would later prioritize in my redesign, as it seems as though most, if not all, tested users communicated that its use was a fairly necessary one in their lives. 
+</p>
+
+
+  </div>
+
+
+
+  <div class="page-section hero" id="architecture">
+    <div data-aos="fade-up">
+    <h1>III. INFORMATION ARCHITECTURE</h1></p>
+<h5>CARD SORTING</h5>
+In order to better understand how an individual USPS consumer thinks and navigates through the information living within the site, I facilitated 4 closed card sorting exercises.  
+  
+<div class="USPSimg"><img src="casestudy/cardsorting.gif"></div>
+
+<p>
+
+This allowed me to substantiate each page’s placement within our developing information architecture, ensuring that our design model matched the user’s mental model. 
+
+<div class="USPSimg"><img src="casestudy/cardsorting2.png">
+<div class="figcaption2">Card sorting results, collected via OptimalSort
+</div></div>
+
+<h5>SITE MAP</h5>
+With the insights discovered via user card sorting, I created a site map that users could comprehend and successfully navigate through. 
+
+<div data-aos="flip-up" data-aos-duration="1500">
+<div class="USPSimg">
+  
+  <a href="casestudy/sitemap.png" class="image" data-toggle="lightbox">
+  <img src="casestudy/sitemap.png"></div></a></div>
+
+<h9>“Help & Support”, “FAQ,” and “Search” </h9><br>
+Because we witnessed some user ambiguity during the card sorting exercise, I decided to place these pages within the primary navigation to eliminate categorical grey area. 
+<p>Next steps of further testing will confirm the placement of these units and/or establish clarity on where they might best live.  
+</p>
+<p><h5>LO-FI WIREFRAMING</h5>
+<div class="USPSimg"></div>
+<a href="casestudy/lofiprototype.PNG" class="image" data-toggle="lightbox">
+  <img src="casestudy/lofiprototype.PNG" width=90%></a></div>
+
+  <div class="page-section hero" id="design">
+    <div data-aos="fade-up">
+    <h1>IV. RESPONSIVE DESIGN, PROTOTYPING, & TESTING</h1></p>
+
+  <P>
+  <h8>HOMEPAGE: ‘QUICK TOOLS’ NAVIGATION  </h8>
+  <p>
+  One particular change I applied from the original USPS design was to move “Quick Tools” from the top header navigation to a spot directly above the fold on the homepage, wanting to make this even more quickly & readily available at the fingertips.
+  <div class="USPSimg">
+    <img src="casestudy/usps_quicktools.PNG"></div>
+    However, there were too many options included in the original design under the Quick Tools header. This was meant to live as a menu of <b>shortcut navigation options</b>, and <i>not</i> to serve as the primary navigation.  
+<p>
+  I distilled this further and reduced the number of options that were available in Quick Tools in order to establish clearer user workflows and to not clutter the user with too many navigation patterns available to them when they were already on the fast track to their goals.
+  <div data-aos="flip-down" data-aos-duration="800">
+  <div class="USPSimg">
+    <img src="casestudy/usps_quicktools2.png"></div></div>
+
+
+
+
+
+    Furthermore, the naming “Quick Tools” did not inherently give an indication of what lived inside the menu. I changed this to <b>“What can we help you with today?”</b> to facilitate a more personable customer service communication interaction between the system and the user. 
+
+    <div class="USPSimg">
+      <img src="casestudy/quicktools_3.gif"></div>
+  
+      <h8>DESKTOP WEB PROTOTYPING</h8>
+      <div class="USPSimg">
+        <img src="casestudy/desktopproto.gif"></div>
+        <div class="USPSimg">
+          <img src="casestudy/desktopproto2.PNG"></div>
+
+          <h8>DESKTOP PROTOTYPE TESTING: TRACKING PACKAGES </h8>
+          <p>
+          In this round of testing, I opted to test for <b>tracking packages</b> as the main task flow. For many users, this was their first touchpoint within the site and a main reason for their visit. Therefore, its success was critical.
+          <div class="USPSimg">
+            <img src="casestudy/tracking.gif"></div>
+      
+Retaining the “track packages” search function as a top and prominent element within the information hierarchy, and  having a clear indicator of delivery status and tracking history yielded positive results in user success and satisfaction.
+<div class="USPSimg">
+  <img src="casestudy/tracking2.png"></div>
+  
+<h8>ITERATIONS: TRACKING TROUBLESHOOTING</h8>
+
+<p>While testing was generally successful for tracking, it raised the question: 
+<p>
+  <div data-aos="zoom-in" data-aos-duration="1500">
+  <h9>What happens when a user’s journey does not end at the status bar page, and there are still needs that have yet to be met (tracking not updating, status inaccurate, etc)? </h9></div>
+</p>
+Therefore, next steps & iterations included:
+<p>  <div data-aos="fade-left" data-aos-duration="1500">
+  <h10>1. Incorporating FAQs that would provide potential explanations to commonly experienced package tracking problems
+  </h10></div>
+
+  <p><div data-aos="fade-left" data-aos-duration="1500">
+    <h10>2. Adding additional links & actions  to help the user troubleshoot when a package’s status was not meeting expectations</h10></div>
+  
+    <p>
+    ...by applying these changes, we’ll ensure that users do not feel abandoned or frustrated at the apparent “end” of a workflow. The goal was to foster peace of mind and reassurance when they are already preoccupied with wondering where their packages are. By providing additional calls-to-action, we can give the user a feeling of control.
+    <div data-aos="zoom-in" data-aos-duration="1500">
+    <div class="USPSimg">
+      <img src="casestudy/iteration1.PNG"></div></div>
+
+      <div class="USPSimg">
+        <img src="casestudy/tracking3.PNG"></div>
+  
+    </p>
+
+
+    <h8>ITERATIONS: BREADCRUMB NAVIGATION</h8>
+    <p>Because there are so many different ways that a user can travel throughout the USPS site, it became evident that there was a need to immediately orient the user and to keep them anchored no matter how far they wandered away from the homepage. I did this by adding in breadcrumb navigation.
+      <div data-aos="zoom-in" data-aos-duration="1500">
+    <div class="USPSimg">
+      <img src="casestudy/breadcrumb.PNG"></div></div>
+
+
+      <h8>MOBILE PROTOTYPING</h8>
+   
+        <div class="USPSimg">
+          <img src="casestudy/mobileproto.gif"></div>
+
+          
+        <div class="USPSimg">
+          <img src="casestudy/mobileproto2.PNG"></div>
+
+  <h8>ITERATIONS: EMPHASIZING TIMESTAMPS ON STATUS UPDATES  </h8>
+  <p>When it came to the Tracking Status page, tested users said that they preferred to see time & date prominently presented when thinking about where their packages were -- if a package wasn’t delivered yet, when would it arrive? If it was delivered, how long was it sitting at the front door? 
+    <p>
+
+      In consideration of the LATCH method of organizing information, I separated <b>time</b> & <b>location</b> as two distinct decipherable information points in order to aid visual digestion and present what the user cared the most about to the forefront of their eye. 
+      </p>
+
+      <div data-aos="zoom-in" data-aos-duration="1500">
+      <div class="USPSimg">
+        <img src="casestudy/mobile3.PNG"></div></div></div>
+
+
+        <h8>MICROINTERACTIONS</h8>
+
+<p>
+  
+    <div class="USPSimg">
+      <img src="casestudy/microinteractions.gif"></div></div>
+
+
+      <p>
+        <div data-aos="fade-left" data-os-duration="1500">
+          <div class="USPSimg">
+            <img src="casestudy/morescreens.png"></div></div></div>
+
+
+
+
+            <div class="page-section hero" id="final">
+              <div data-aos="fade-up">
+              <h1>IV. POST-MORTEM: FINAL THOUGHTS</h1></p>
+    
+
+
+              
+              <h8>LANGUAGE  </h8>
+<p>While all the users tested for this project were English speakers, part of considering universal usability meant acknowledging users whose first language is not English. The 2019 Census Bureau reports at least 350 languages spoken across households in the United States. </p>
+<p>On the USPS website, only two additional languages besides English - Spanish and Chinese - are available, and not all elements are fully translated.</p>
+</p> 
+<div class="USPSimg">
+    <img src="casestudy/spanish.png" width="50%"></div>
+
+    <div class="USPSimg">
+    <img src="casestudy/Chinese.png" width="50%">
+    <div class=figcaption2>Spanish & Chinese translation versions of USPS.com</div></div>
+    <p>
+    As a potential next step, it would be a great opportunity to be able to create multiple language versions of the site that represented the scope of languages spoken by USPS consumers. 
+
+    Testing among native speakers of respective languages would deliver insight into the sets of visual cues and communicative signifiers that lie within each culture group itself. This could further help inform ease of use & delight for an individual user.
+
+    <div data-aos="zoom-in" data-aos-duration="1500">
+    <div class="USPSimg">
+      <img src="casestudy/language.PNG"></div></div>
+
+
+<h8>PERSONAL TAKEAWAYS</h8>
+<p>
+ <b> Prioritization was a challenge.</b> Due to the limited time constraint of the project, I had to select a few task flows to focus on, rather than attempt to overhaul the entire site. 
+<p>
+  Because my intention was rooted in creating solutions that would hold significant relevance for as many people as possible, I prioritized the homepage navigation and tracking task flows, so I could cast as wide of a net as I could when it came to testing. My aim was to test people who had familiarity with these actions in their daily lives so they could offer meaningful qualitative data to build from.
+  <p>
+    	
+Moving forward, I would likely approach this by continuing to work on most common use cases, and work my way back in terms of what needed to be prioritized by considering what is most applicable & relevant for the users. 
+<p>
+That being said, because we have such a widespread pool of postal service users, this may not always be as clear as homepage navigation and tracking packages. 
+<p>
+It would have been enormously beneficial to have access to large-scale quantitative data gathered internally within the site -- such as page view metrics, heat maps, and  on-screen viewability rates. Coupled with the qualitative data gathered, this would be powerful in telling a bigger story surrounding the vast audience we’re working with.
+<p>
+Additionally, I would have loved the opportunity to engage with USPS stakeholders to understand their concerns and preferences.   
+
+<p>
+<div class="quotefooter"><center>THANK YOU FOR READING!
+<p>Questions, comments, or feedback? I'd love to hear it. Please drop me a line <br> <a href="contact.html">here.</a></p>
+
+<div data-aos="zoom-in">
+<a href="#top">
+<div class="backtotop1"><div class="bounce"><arrow>▲</arrow><br>BACK TO TOP</div></div></a>
+</center>
+</div></div>
+  </p>
+
+
+</p>
+
+
+
+
+
+<script>$('.slider').slick({
+  infinite: true,
+	dots: true,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	fade: true,
+	fadeSpeed: 1000
+});</script>
+
+
+<script>
+  AOS.init();
+</script>
+
+    <!--Scripts, placed at the end of the document so that the pages load faster. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+              event.preventDefault();
+              $(this).ekkoLightbox();
+          });
+    </script>
+
+<footer>
+
+  <div class="Socials">
+  <a href="https://www.behance.net/erinwong3" target="_blank"><img src="behance-1.svg" width="20" height="20"></a>
+        <a href="https://www.linkedin.com/in/erinwong93/" target="_blank"><img src="linkedin.png" width="20" height="20"></a>
+        <a href="https://github.com/wongx93" target="_blank"><img src="github.png" width="20" height="20"></a>
+        <a href="mailto:wongx93@gmail.com" target="_blank"><img src="email.png" width="20" height="15"></a>
+        <p></div>
+    
+  <div class="copyright">
+  Copyright 2020 Erin Wong All Rights Reserved</div>
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
