@@ -437,6 +437,8 @@ section {
     justify-content: center;
     padding: 40px 40px 40px 40px;
     float: left;
+    width: 300px;
+    height: 300px;
 
   }
   
