@@ -1050,8 +1050,7 @@ height: auto;
     text-align: center;
     justify-content: center;
     vertical-align: middle;
-    margin: 10px 10px 10px 10px;
-    max-width: 100%;
+
     display: flex;
     
     }
@@ -1062,7 +1061,7 @@ height: auto;
       text-align: center;
       justify-content: space-between; 
       vertical-align: middle;
-      margin: 10px 10px 10px 10px;
+
       
       }
 
@@ -1453,7 +1452,7 @@ overflow: -moz-hidden-unscrollable;
 
 
   input, textarea {
-    width: 80%;
+    width: 60%;
     border: 2px solid #BC7A90;
     background-color: transparent;
     color:#4e4e4e ;
