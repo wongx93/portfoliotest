@@ -1051,7 +1051,7 @@ height: auto;
     justify-content: center;
     vertical-align: middle;
     margin: 10px 10px 10px 10px;
-    max-width: 800px;
+    max-width: 60%;
     display: flex;
     
     }
@@ -1393,6 +1393,11 @@ margin-top: 40px;
       
 
   @media only screen and (max-width : 768px) {
+
+    body {
+    overflow-x: hidden;
+  }
+  
     .type {
       display: inline-block;
       font-size: 18px;
