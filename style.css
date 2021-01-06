@@ -1051,7 +1051,7 @@ height: auto;
     justify-content: center;
     vertical-align: middle;
     margin: 10px 10px 10px 10px;
-    max-width: 60%;
+    max-width: 100%;
     display: flex;
     
     }
