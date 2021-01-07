@@ -1501,6 +1501,10 @@ div.content {
 
 }
 
+.imgcontainer { 
+  display: block;
+  width: 100vw;
+}
 
 responsive {
   width: 100%;
