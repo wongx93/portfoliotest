@@ -30,6 +30,12 @@ margin-left: 200px;
 display: inline-block;
 }
 
+.title { 
+text-align: center;
+width: 80vw;
+}
+
+
 .flexcontainer { 
 display: grid;
 
@@ -474,8 +480,6 @@ section {
 
 
 
-
-
 div.PLAY div.gallery {
 
 
@@ -592,11 +596,12 @@ div.breadcrumb {
   position: sticky;
   top: 30px;
   padding-top: 80px;
+  text-align: left;
   height: 40px;
   background-color: #f8fffe;
   z-index: 2;
-  font-size: 13px;
-  padding-left: 200px;
+  font-size: 14px;
+
 }
 
 
@@ -1439,6 +1444,14 @@ margin-right: 10px;
 overflow: -moz-hidden-unscrollable;
 
     }
+
+
+
+
+
+
+
+
   
   
     div.contact {
@@ -1533,6 +1546,29 @@ div.content {
  
 }
       
+
+.playnav {
+
+  text-align: right;
+  justify-content: right;
+  line-height: 2.5;
+  font-size: 13px;
+margin-left: -50px;
+padding-right: 80px;
+
+  background-color: #f8fffe;
+  width: 100%;
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  padding-top: 80px;
+  z-index: 2;
+  height: 40px;
+
+
+}
+
 
 
   @media (max-width: 1120px) {
