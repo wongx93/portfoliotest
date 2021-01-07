@@ -1573,7 +1573,7 @@ align-items: center;
 div.polaroid {
     
   max-width: 500px;
-  width: 80%;
+  width: 90%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(202, 116, 159, 0.19);
   margin: 10px 10px 10px 10px;
@@ -1594,7 +1594,7 @@ div.polaroid img {
 
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(100, 95, 98, 0.151);
-  width: 90%;
+  width: 100%;
   margin: auto;
 
 
@@ -1614,10 +1614,25 @@ div.card h1 {
   font-size: 18px;
 
 }
+
 div.card a:link {
   color: #3D3D3D;;
   font-weight: 600;
   font-size: 14px;
+
+}
+
+
+div.about img {
+
+  text-align: center;
+  margin: 24px;
+  border-radius: 50%;
+  justify-content: center;
+  padding: 40px 40px 40px 40px;
+  float: left;
+  width: 150px;
+  height: 1500px;
 
 }
 
