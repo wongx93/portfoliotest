@@ -1503,8 +1503,24 @@ div.content {
 
 
 div.graphic img {
-  width: 100%;
+  width: 100vw;
   
+  }
+
+  .slideshow-container {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .slideshow-container2 {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
   }
 
   @media (max-width: 1120px) {
