@@ -1059,7 +1059,6 @@ height: auto;
 
 
     div.graphic img {
-      width: 100%;
       text-align: center;
       justify-content: space-between; 
       vertical-align: middle;
@@ -1503,9 +1502,10 @@ div.content {
 }
 
 
-.img { 
-  width: 80%;
-}
+div.graphic img {
+  width: 100%;
+  
+  }
 
   @media (max-width: 1120px) {
 
