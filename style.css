@@ -1500,6 +1500,16 @@ div.content {
   height: auto;
 
 }
+div.graphic {
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+
+  display: flex;
+  
+  }
+
 
 
 div.graphic img {
