@@ -1626,10 +1626,10 @@ div.card a:link {
 div.about img {
 
   text-align: center;
-  margin: 24px;
+  margin: auto;
   border-radius: 50%;
   justify-content: center;
-  padding: 40px 40px 40px 40px;
+  padding:auto;
   float: left;
   width: 150px;
   height: 1500px;
