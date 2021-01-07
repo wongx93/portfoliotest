@@ -1502,12 +1502,10 @@ div.content {
 }
 
 
-div.graphic img {
-  margin:auto;
-    width: 100%; 
-    max-width: 100%; 
-    height: auto;
-  }
+responsive {
+  width: 100%;
+  height: auto;
+}
 
   .slideshow-container {
     overflow: hidden;
