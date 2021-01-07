@@ -1501,7 +1501,7 @@ div.content {
 
 }
 div.graphic {
-  width: 400px;
+
   text-align: center;
   justify-content: center;
   vertical-align: middle;
@@ -1513,7 +1513,7 @@ div.graphic {
 
 
 div.graphic img {
-  width: 100%;
+  width: 60%;
   
   }
 
