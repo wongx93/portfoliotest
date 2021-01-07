@@ -802,17 +802,17 @@ nav.sidebar {
 
   div.card h1 {
     color: #3D3D3D;;
-    font-weight: 400;
+    font-weight: 600;
     margin: 0 0 0 0;
     font-size: 18px;
 
   }
   div.card a:link {
     color: #3D3D3D;;
-    font-weight: 400;
-    text-align: right;
+    font-weight: 600;
+    text-align: center;
     font-size: 18px;
-    padding-left: 65%;
+    padding-left: 66%;
   }
 
 
@@ -1554,7 +1554,7 @@ div.content {
   line-height: 2.5;
   font-size: 13px;
 margin-left: -50px;
-padding-right: 80px;
+padding-right: 10px;
 
   background-color: #f8fffe;
   width: 100%;
