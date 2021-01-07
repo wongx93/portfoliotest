@@ -1561,7 +1561,7 @@ div.PLAY div.gallery {
 
 
   display: inline-block;
-margin-top: 100px;
+margin-top: 70px;
 justify-content: center;
 align-items: center;
   text-align: center;
@@ -1627,9 +1627,9 @@ div.about img {
   border-radius: 50%;
   justify-content: center;
   padding: 40px 40px 40px 40px;
-  float: left;
+
   width: 150px;
-  height: 1500px;
+  height: 150px;
 
 }
 
