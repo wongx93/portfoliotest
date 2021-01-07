@@ -1434,6 +1434,7 @@ Read more: https://html.com/tags/comment-tag/#ixzz6isFw1N6O
     .indexgallery {
       display: inline-block;
       margin: auto; 
+      
        
     }
 
@@ -1445,8 +1446,7 @@ font-size: 18px;
 margin-top: 140px;
 margin-left: 10px;
 margin-right: 10px;
-padding-right: 10px;
-padding-left: 10px;
+
 overflow: -moz-hidden-unscrollable;
 
     }
