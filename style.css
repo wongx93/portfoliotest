@@ -1503,7 +1503,7 @@ div.content {
 
 
 div.graphic img {
-  width: 100vw;
+  width: 100%;
   
   }
 
@@ -1522,6 +1522,17 @@ div.graphic img {
     width: 100%;
     height: auto;
   }
+
+  
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  max-width: 30%;
+ 
+}
+      
+
 
   @media (max-width: 1120px) {
 
