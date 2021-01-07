@@ -1608,14 +1608,16 @@ div.card h1 {
   color: #3D3D3D;;
   font-weight: 600;
   margin: 0 0 0 0;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: auto;
 
 }
 div.card a:link {
   color: #3D3D3D;;
   font-weight: 600;
   font-size: 16px;
-  margin: 0 0 0 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 
 }
 
