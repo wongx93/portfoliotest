@@ -787,8 +787,8 @@ nav.sidebar {
 
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(100, 95, 98, 0.151);
-    margin: 15px 0px 15px 10px;
-    width: 80%;
+    margin: 15px 15px 15px 10px;
+    width: 90%;
 
  
   }
@@ -1553,8 +1553,8 @@ div.content {
   justify-content: right;
   line-height: 2.5;
   font-size: 13px;
-margin-left: -50px;
-padding-right: 10px;
+margin: auto;
+  padding-right: 10px;
 
   background-color: #f8fffe;
   width: 100%;
@@ -1567,6 +1567,59 @@ padding-right: 10px;
   height: 40px;
 
 
+}
+
+
+
+div.polaroid {
+    
+  max-width: 500px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(202, 116, 159, 0.19);
+  margin: 10px 10px 10px 10px;
+  border-radius: 20px 20px 20px 20px;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-top:5px #b1b1b148;
+  display: inline-block;
+
+
+
+
+}
+
+div.polaroid img {
+  
+
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(100, 95, 98, 0.151);
+  width: 90%;
+
+
+}
+
+div.card {
+
+  padding: 15px 15px 15px 15px;
+  font-size: 16px;
+}
+
+
+div.card h1 {
+  color: #3D3D3D;;
+  font-weight: 600;
+  margin: 0 0 0 0;
+  font-size: 14px;
+
+}
+div.card a:link {
+  color: #3D3D3D;;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 66%;
 }
 
 
