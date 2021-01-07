@@ -1509,6 +1509,7 @@ div.content {
 responsive {
   width: 100%;
   height: auto;
+  margin: 4px 4px 4px 4px;
 }
 
   .slideshow-container {
