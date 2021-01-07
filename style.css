@@ -1501,13 +1501,9 @@ div.content {
 
 }
 
-.imgcontainer { 
-  display: block;
-  width: 100vw;
-}
 
-responsive {
-  width: 100vw;
+.responsive {
+  width: 70vw;
   height: auto;
   margin: 4px 4px 4px 4px;
 }
