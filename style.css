@@ -1549,23 +1549,7 @@ div.content {
 
 .playnav {
 
-  text-align: right;
-  justify-content: right;
-  line-height: 2.5;
-  font-size: 13px;
-margin: auto;
-  padding-right: 10px;
-
-  background-color: #f8fffe;
-  width: 100%;
-  
-  position: -webkit-sticky;
-  position: sticky;
-  top: 5px;
-  padding-top: 80px;
-  z-index: 2;
-  height: 40px;
-
+display: none;
 
 }
 
