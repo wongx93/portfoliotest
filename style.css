@@ -32,7 +32,7 @@ display: inline-block;
 
 .title { 
 text-align: center;
-width: 80vw;
+width: 70vw;
 }
 
 
@@ -1573,7 +1573,7 @@ div.polaroid {
   width: 80%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(202, 116, 159, 0.19);
-  margin: 10px 10px 10px 10px;
+  margin: 10px 20px 10px 20px;
   border-radius: 20px 20px 20px 20px;
   justify-content: center;
   padding-right: 10px;
