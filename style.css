@@ -199,6 +199,10 @@ textarea {
 
 }
 
+
+
+
+
 colorchange {
   animation: color-change 10s forwards;
 }
@@ -670,8 +674,157 @@ nav.sidebar {
   box-shadow: 4px 4px #d1bcc7;
  }
 
+ @keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 50p
+  font-size: 14px;
+  color: #FFF;
+  height: 30px;
+  width: 90%;
+
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #aae3e9;
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+  height: 20px;
+
+}
+
+.bar.front::before{
+  background-color: #aad7e9;
+}
+.bar.back::before{
+  background-color: #aad7e9;
+}
+
+.bar.learning::before{
+  width: calc(30% - 5px);
+}
+.bar.basic::before{
+  width: calc(50% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(85% - 10px);
+}
+
+.bar.intermediate2::before{
+  width: calc(71% - 10px);
+}
+
+.bar.advanced::before{
+  width: calc(90% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 25px);
+}
 
 
+
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #b4dae6;
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+  height: 20px;
+
+}
+
+.skillscontainer2 .bar.front::before{
+  background-color: #d5cbda;
+}
+.skillscontainer2 .bar.back::before{
+  background-color: #d5cbda;
+}
+
+
+.skillscontainer3 .bar.front::before{
+  background-color: #bdd8cc;
+}
+.skillscontainer3 .bar.back::before{
+  background-color:#bdd8cc;
+}
+
+
+
+ .skills { 
+width: 100%; 
+display: inline-block;
+text-align: center;
+margin: 20px 10px 10px 10px;
+
+ }
+
+ .skillscontainer { 
+   padding-left: 100px;
+   padding-right: 100px;
+  width: 80%; 
+float: left;
+text-align: left;
+  margin: 30px 10% 10px 5%;
+  font-size: 14px;
+  color: #696969;
+  
+   }
+
+   .skillscontainer2 { 
+    padding-left: 100px;
+    padding-right: 100px;
+   width: 80%; 
+ float: left;
+ text-align: left;
+   margin: 30px 10% 10px 5%;
+   font-size: 14px;
+   color: #696969;
+    }
+  
+
+    .skillscontainer3 { 
+      padding-left: 100px;
+      padding-right: 100px;
+     width: 80%; 
+   float: left;
+   text-align: left;
+     margin: 30px 10% 10px 5%;
+     font-size: 14px;
+     color: #696969;
+      }
 
 
 
@@ -1234,13 +1387,12 @@ margin-top: 40px;
   }
   
   /************CSS Animation***********/
-  
-  .animated { 
-     -webkit-animation-name: fadeIn; 
-             animation-name: fadeIn; 
-     -webkit-animation-duration: 1s; 
-             animation-duration: 1s; 
-  } 
+  .fadeIn { 
+    -webkit-animation-name: fadeIn; 
+    animation-name: fadeIn; 
+}
+
+ 
   @-webkit-keyframes fadeIn { 
       0% {opacity: 0;} 
       100% {opacity: 1;} 
@@ -1249,10 +1401,14 @@ margin-top: 40px;
       0% {opacity: 0;} 
       100% {opacity: 1;} 
   } 
-  .fadeIn { 
-      -webkit-animation-name: fadeIn; 
-      animation-name: fadeIn; 
-  }
+ 
+
+  .animated { 
+    -webkit-animation-name: fadeIn; 
+            animation-name: fadeIn; 
+    -webkit-animation-duration: 1s; 
+            animation-duration: 1s; 
+ } 
   
 
   .line-1{
@@ -1396,6 +1552,8 @@ margin-top: 40px;
     body {
     overflow-x: hidden;
   }
+
+  
   
     .type {
       display: inline-block;
@@ -1629,10 +1787,45 @@ div.about img {
 
 }
 
-  @media (max-width: 1120px) {
 
-body { width: auto}
-
-
-
-  }
+.skills { 
+  width: 100%; 
+  display: inline-block;
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+  
+   }
+  
+   .skillscontainer { 
+     padding-left: 0px;
+     padding-right: 0px;
+    width: 100%; 
+  float: left;
+  text-align: left;
+    margin: 2px 2px 2px 2px;
+    font-size: 14px;
+    
+     }
+  
+     .skillscontainer2 { 
+      padding-left: 0px;
+      padding-right: 0px;
+     width: 100%; 
+   float: left;
+   text-align: left;
+     margin: 2px 2px 2px 2px;
+     font-size: 14px;
+     
+      }
+    
+  
+      .skillscontainer3 { 
+        padding-left: 0px;
+        padding-right: 0px;
+       width: 100%; 
+     float: left;
+     text-align: left;
+       margin: 2px 2px 2px 2px;
+       font-size: 14px;
+       
+        }

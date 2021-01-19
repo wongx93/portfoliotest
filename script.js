@@ -67,6 +67,14 @@ $(document).ready(function() {
 
 
 
+$(document).ready(function() {
+  $('.progress .progress-bar').css("width",
+            function() {
+                return $(this).attr("aria-valuenow") + "%";
+            }
+    )
+});
+
 
 $(window).scroll(function() {
   var scrollDistance = $(window).scrollTop();
