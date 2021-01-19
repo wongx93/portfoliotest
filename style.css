@@ -710,23 +710,24 @@ nav.sidebar {
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #aae3e9;
+  background-image: linear-gradient(to right,#aad7e9,#cef0fd);
   display: inline-block;
   padding: 5px 5px 5px 5px;
   border-radius: inherit;
-  animation: load 2s 0s;
-  -webkit-animation: load 2s 0s;
-  -moz-animation: load 2s 0s;
-  -o-animation: load 2s 0s;
+  animation: load 10s 0s;
+  -webkit-animation: load 10s 0s;
+  -moz-animation: load 10s 0s;
+  -o-animation: load 10s 0s;
   height: 20px;
 
 }
 
 .bar.front::before{
-  background-color: #aad7e9;
+  background-image: linear-gradient(to right,#aad7e9,#cef0fd);
+ 
 }
 .bar.back::before{
-  background-color: #aad7e9;
+  background-image: linear-gradient(to right,#aad7e9,#cef0fd);
 }
 
 .bar.learning::before{
@@ -754,7 +755,7 @@ nav.sidebar {
 
 .bar::before{
   content:  attr(data-skill);
-  background-color: #b4dae6;
+  background-image: linear-gradient(to right,#aad7e9,#cef0fd);
   display: inline-block;
   padding: 5px 5px 5px 5px;
   border-radius: inherit;
@@ -767,19 +768,25 @@ nav.sidebar {
 }
 
 .skillscontainer2 .bar.front::before{
-  background-color: #d5cbda;
+  background-image: linear-gradient(to right,#cfacca,#f3dbee);
 }
 .skillscontainer2 .bar.back::before{
-  background-color: #d5cbda;
+  background-image: linear-gradient(to right,#cfacca,#f3dbee);
 }
 
 
 .skillscontainer3 .bar.front::before{
-  background-color: #bdd8cc;
+  background-image: linear-gradient(to right,#9ad1bf,rgb(192, 226, 215));
 }
 .skillscontainer3 .bar.back::before{
   background-color:#bdd8cc;
 }
+
+.skillscontainer3 .bar.intermediate2::before{
+  width: calc(71% - 10px);
+  background-image: linear-gradient(to right,#9ad1bf,rgb(192, 226, 215));
+}
+
 
 
 
