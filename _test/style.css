@@ -2150,7 +2150,7 @@ width: 100%;
           padding: auto;
           margin-top: 40px;
           background-color: transparent;
-          background-image: url(giphy.gif);
+          background-image: url(_test/giphy.gif);
           background-repeat: no-repeat;
           background-attachment: fixed;
           justify-content: space-around;
