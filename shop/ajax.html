@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test: Product</title>
+  </head>
+  <body>
+    <script data-shopify-buy-ui>
+      (function () {
+       var scriptURL = "../../tmp/buy-button-storefront.js";
+        if (window.ShopifyBuy && window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = scriptURL;
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+          script.onload = ShopifyBuyInit;
+        }
+
+        function ShopifyBuyInit() {
+          var client = ShopifyBuy.buildClient({
+            // your credentials here
+          });
+
+          ShopifyBuy.UI.onReady(client).then(function (ui) {
+            ui.createComponent('product', {
+              // your config here
+            });
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+<div id='collection-component-1611012014519'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'erin-wong-handmade.myshopify.com',
+      storefrontAccessToken: 'b8c440563242cc8d193f297e17f9e0de',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '241395368110',
+        node: document.getElementById('collection-component-1611012014519'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+          "width": "calc(25% - 20px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "font-family": "Karla, sans-serif",
+        "font-weight": "normal",
+        "font-size": "14px"
+      },
+      "button": {
+        "font-family": "Karla, sans-serif",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "color": "#f5f1f1",
+        ":hover": {
+          "color": "#f5f1f1",
+          "background-color": "#313131"
+        },
+        "background-color": "#363636",
+        ":focus": {
+          "background-color": "#313131"
+        },
+        "border-radius": "0px",
+        "padding-left": "17px",
+        "padding-right": "17px"
+      },
+      "quantityInput": {
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px"
+      },
+      "price": {
+        "font-family": "Karla, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Karla, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Karla, sans-serif"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
+    "text": {
+      "button": "View product"
+    },
+    "googleFonts": [
+      "Karla"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Karla, sans-serif",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "color": "#f5f1f1",
+        ":hover": {
+          "color": "#f5f1f1",
+          "background-color": "#313131"
+        },
+        "background-color": "#363636",
+        ":focus": {
+          "background-color": "#313131"
+        },
+        "border-radius": "0px",
+        "padding-left": "17px",
+        "padding-right": "17px"
+      },
+      "quantityInput": {
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px"
+      }
+    },
+    "googleFonts": [
+      "Karla"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Karla, sans-serif",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "color": "#f5f1f1",
+        ":hover": {
+          "color": "#f5f1f1",
+          "background-color": "#313131"
+        },
+        "background-color": "#363636",
+        ":focus": {
+          "background-color": "#313131"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Karla"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Karla, sans-serif",
+        "background-color": "#363636",
+        ":hover": {
+          "background-color": "#313131"
+        },
+        ":focus": {
+          "background-color": "#313131"
+        }
+      },
+      "count": {
+        "font-size": "13px",
+        "color": "#f5f1f1",
+        ":hover": {
+          "color": "#f5f1f1"
+        }
+      },
+      "iconPath": {
+        "fill": "#f5f1f1"
+      }
+    },
+    "googleFonts": [
+      "Karla"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>

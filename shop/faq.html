@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+
+
+        <!-- Latest compiled JavaScript -->
+        <script src="script.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <script> 
+          $(function(){
+            $("#navigation").load("navigation.html"); 
+          });
+
+          $(function(){
+            $("#testproduct1").load("testproduct.html"); 
+          });
+
+          $(function(){
+            $("#footer").load("footer.html"); 
+          });
+
+
+          </script> 
+
+      </head>
+  
+
+
+      <body> 
+  <div class="navigation"> <div id="navigation"></div></div>
+
+        <section class="mainbody">
+
+
+            <section class="shopbody">
+  
+                <h2>faq.</h2>  
+            
+<center>
+<h1>frequently asked questions</h1>
+
+for shipping information, <a href="shipping.html">please visit here</a>. 
+
+<p>
+  don't see your answer below? ask it <a href="contact.html">here.</a>
+</p>
+
+</center>
+
+<div class="faq">
+
+  <div class="collapsible">what is your return/exchange policy?</div>
+  <div class="content">
+    <p>Returns are accepted 14 days within the delivery date. Buyers are responsible for return shipping costs. If the item is not returned in its original condition, the buyer is responsible for any loss in value.
+    <p>
+      If you have any questions or concerns about your order, please feel send me a message <a href="contact.html">here!</a> It is my priority that you love your product as much as I loved making it.
+    </p>  
+    </p>
+  </div>
+
+
+
+
+  
+  <div class="collapsible">what is resin?</div>
+  <div class="content">
+    <p>Resin is a thermosetting medium. When epoxy resin is mixed with a hardening agent in a correct ratio in a workspace with the right temperature, a chemical reaction occurs that begins the curing process into an inert and solid plastic. </p>
+  </div>
+
+  <div class="collapsible">how do i care for my resin pieces?</div>
+  <div class="content">
+  
+    <p>  Pieces are water-resistant, but not waterproof. 
+    Please do not submerge your jewelry in water for extended periods of time. To clean, wipe with a damp cloth. Surfaces are slightly porous, avoid spraying chemicals/alcohol-based products (hairsprays, perfumes, nail polish removers) on pieces to avoid absorbency and deterioration.
+      <p>
+      Resin can scratch and break when excessive force is applied. Treat your pieces with love and kindness!</p>
+  </div>
+
+  <div class="collapsible">is resin food-safe?</div>
+  <div class="content">
+    <p>Fully cured resin is generally regarded as food-safe and can be used for brief-use direct food contact. </p>
+  </div>
+
+  <div class="collapsible">can the planter pots be used for candles?</div>
+  <div class="content">
+    <p>While planters make great candle holders, pouring candle wax directly in the containers is not advised. </p>
+  </div>
+
+  <div class="collapsible">are the plants & flowers included with the planters?</div>
+  <div class="content">
+    <p>No, but I always try to include a plant friend when I can,  depending on what I have in my personal stash. :) </p>
+  </div>
+
+  
+
+  <div class="collapsible">i love this product, but i wish it had a longer chain, was the color blue, and could fly. do you take customization requests?</div>
+  <div class="content">
+    <p>Custom requests are done on case-by-case basis depending on time & supplies I have on hand. <a href="contact.html">Send me a message</a>, I'd love to make your vision come true! </p>
+  </div>
+                
+
+  <div class="collapsible">do you take wholesale requests?</div>
+  <div class="content">
+    <p> Yes! Please <a href="contact.html">send me a message via this contact form.</a></p>
+  </div>
+
+
+              </div>
+
+</section>
+
+        </section>
+
+
+
+
+
+        <div class="footer"> <div id="footer"></div></div>
+
+
+
+
+
+        <script>
+          var coll = document.getElementsByClassName("collapsible");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.maxHeight){
+                content.style.maxHeight = null;
+              } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+              } 
+            });
+          }
+          </script>
+
+</body>
+
+</html>
