@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+
+        <!-- Latest compiled JavaScript -->
+        <script src="script.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      
+      </head>
+  
+
+
+      <body> 
+  <div class="navigation"> <div id="navigation"></div></div>
+
+        <section class="mainbody">
+
+   
+
+
+
+<section class="shopbody">
+  
+
+  <h2>shop.</h2> 
+  searchbar placeholder
+  
+
+<div class="tab">
+  <div class="scrolling-wrapper">
+
+  <button class="tablinks" onclick="openPage(event, 'new')" id="defaultOpen">newly added</button>
+  <button class="tablinks" onclick="openPage(event, 'jewelry')">jewelry</button>
+  <button class="tablinks" onclick="openPage(event, 'wares')">home decor</button>
+  <button class="tablinks" onclick="openPage(event, 'art')">art prints</button>
+</div>
+</div>
+
+<div class="tab">
+  <div class="scrolling-wrapper">
+
+    <a href="new.html">  <button class="tablinks">newly added</button></a>
+  <button class="tablinks">jewelry</button>
+  <button class="tablinks">home decor</button>
+  <button class="tablinks">art prints</button>
+</div>
+</div>
+
+<div id="new" class="tabcontent">
+  <div class="new"> <div id="new"></div></div>
+</div>
+
+
+<div id="jewelry" class="tabcontent">
+  <div class="jewelryprod"> <div id="jewelryprod"></div></div>
+</div>
+
+
+<div id="wares" class="tabcontent">
+  <div class="wares"> <div id="wares"></div></div>
+</div>
+
+
+
+<div id="art" class="tabcontent">
+  <div class="art"> <div id="art"></div></div>
+</div>
+
+
+
+</section>
+
+        </section>
+
+
+
+
+
+        <div class="footer"> <div id="footer"></div></div>
+
+        <script>
+  
+          $(function(){
+            $("#navigation").load("navigation.html"); 
+          });
+
+        
+        
+          $(function(){
+            $("#footer").load("footer.html"); 
+          });
+        
+          $(function(){
+            $("#new").load("new.html"); 
+          });
+
+          $(function(){
+            $("#jewelryprod").load("jewelryprod.html"); 
+          });
+        
+            $(function(){
+            $("#wares").load("wares.html"); 
+          });
+
+          $(function(){
+            $("#art").load("art.html"); 
+          });
+
+
+          $(document).ready(function() {
+
+
+
+});
+
+
+$(document).ready( function() {
+   var activeTab = window.location.hash;
+   if (activeTab) {
+      $( activeTab )[0].click();
+   }
+});
+
+          function openPage(evt, PageName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(PageName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+
+          
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+        
+          
+          </script> 
+
+
+<script>
+
+</script>
+
+
+
+</body>
+
+
+
+</html>
