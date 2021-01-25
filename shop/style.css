@@ -1034,7 +1034,7 @@ background-image: white;
         background-position:  0% 100%;
         background-size: 100%;
         color: #FFFFFF;
-        background-image: url(billboard1.png);
+        background-image: url(image/billboard1.png);
         background-attachment: inherit;
         
         }
@@ -1058,7 +1058,7 @@ background-image: white;
           background-position:  0% 100%;
           background-size: 100%;
           color: #FFFFFF;
-          background-image: url(billboard2.png);
+          background-image: url(image/billboard2.png);
           background-attachment: inherit;
           
           }
@@ -1081,7 +1081,7 @@ background-image: white;
                 background-position:  0% 100%;
                 background-size: 100%;
                 color: #FFFFFF;
-                background-image: url(billboard7.png);
+                background-image: url(image/billboard7.png);
                 background-attachment: inherit;
                 
                 }
@@ -1108,7 +1108,7 @@ background-image: white;
                 background-position:  0% 100%;
                 background-size: 100%;
                 color: #FFFFFF;
-                background-image: url(billboard5.png);
+                background-image: url(image/billboard5.png);
                 background-attachment: inherit;
                 
                 }
@@ -1135,7 +1135,7 @@ background-image: white;
                       background-position:  0% 100%;
                       background-size: 100%;
                       color: #FFFFFF;
-                      background-image: url(billboard6.png);
+                      background-image: url(image/billboard6.png);
                       background-attachment: inherit;
                       
                       }
@@ -1164,7 +1164,7 @@ background-image: white;
           background-position:  0% 100%;
           background-size: 100%;
           color: #FFFFFF;
-          background-image: url(billboard3.png);
+          background-image: url(image/billboard3.png);
           background-attachment: inherit;
           
           }
@@ -1191,7 +1191,7 @@ background-image: white;
                 background-position:  0% 100%;
                 background-size: 100%;
                 color: #FFFFFF;
-                background-image: url(billboard4.png);
+                background-image: url(image/billboard4.png);
                 background-attachment: inherit;
                 
                 }
@@ -2238,7 +2238,7 @@ border: none;
             background-position:  0% 0%;
             background-size: 80%;
             color: #FFFFFF;
-            background-image: url(./billboard1.png);
+            background-image: url(image/billboard1.png);
             background-attachment: inherit;
             
             }
@@ -2262,7 +2262,7 @@ border: none;
               background-position:  0% 0%;
               background-size: 80%;
               color: #FFFFFF;
-              background-image: url(./billboard2.png);
+              background-image: url(image/billboard2.png);
               background-attachment: inherit;
               
               }
@@ -2286,7 +2286,7 @@ border: none;
                     background-position:  0% 0%;
                     background-size: 80%;
                     color: #FFFFFF;
-                    background-image: url(./billboard7.png);
+                    background-image: url(image/billboard7.png);
                     background-attachment: inherit;
                     
                     }
@@ -2309,7 +2309,7 @@ border: none;
                     background-position:  0% 0%;
                     background-size: 80%;
                     color: #FFFFFF;
-                    background-image: url(billboard3.png);
+                    background-image: url(image/billboard3.png);
                     background-attachment: inherit;
             
                     
@@ -2341,7 +2341,7 @@ border: none;
                       background-position:  0% 0%;
                       background-size: 80%;
                       color: #FFFFFF;
-                      background-image: url(billboard4.png);
+                      background-image: url(image/billboard4.png);
                       background-attachment: inherit;
                       
                       }
@@ -2365,7 +2365,7 @@ border: none;
                             background-position:  0% 0%;
                             background-size: 80%;
                             color: #FFFFFF;
-                            background-image: url(billboard1.png);
+                            background-image: url(image/billboard1.png);
                             background-attachment: inherit;
                             
                             }
@@ -2389,7 +2389,7 @@ border: none;
                               background-position:  40% 0%;
                               background-size: 80%;
                               color: #FFFFFF;
-                              background-image: url(billboard5.png);
+                              background-image: url(image/billboard5.png);
                               background-attachment: inherit;
                               
                               }
@@ -2412,7 +2412,7 @@ border: none;
                                     background-position:  40% 0%;
                                     background-size: 80%;
                                     color: #FFFFFF;
-                                    background-image: url(billboard6.png);
+                                    background-image: url(image/billboard6.png);
                                     background-attachment: inherit;
                                     
                                     }
