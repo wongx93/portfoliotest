@@ -837,7 +837,7 @@ align-items: center;
 
 
 .animate {
-background-image: url(animate1_1.gif);
+background-image: url(image/animate1_1.gif);
 background-repeat: no-repeat;
 height: 150px;
 width: auto;
@@ -1752,7 +1752,7 @@ overflow: -moz-hidden-unscrollable;
 
 
 .animate {
-  background-image: url(animate1_1.gif);
+  background-image: url(image/animate1_1.gif);
   background-repeat: no-repeat;
 
   width: auto;
