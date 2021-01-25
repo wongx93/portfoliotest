@@ -951,7 +951,7 @@ padding: auto;
 padding-bottom: 10px;
 padding-right: 5px;
 padding-left: 5px;
-background-image: url(image4.png);
+background-image: url(./image4.png);
 margin: 20px 10px 20px 20px;
 background-size: 100%;
 border-style: solid;
@@ -2238,7 +2238,7 @@ border: none;
             background-position:  0% 0%;
             background-size: 80%;
             color: #FFFFFF;
-            background-image: url(billboard1.png);
+            background-image: url(./billboard1.png);
             background-attachment: inherit;
             
             }
@@ -2262,7 +2262,7 @@ border: none;
               background-position:  0% 0%;
               background-size: 80%;
               color: #FFFFFF;
-              background-image: url(billboard2.png);
+              background-image: url(./billboard2.png);
               background-attachment: inherit;
               
               }
@@ -2286,7 +2286,7 @@ border: none;
                     background-position:  0% 0%;
                     background-size: 80%;
                     color: #FFFFFF;
-                    background-image: url(billboard7.png);
+                    background-image: url(./billboard7.png);
                     background-attachment: inherit;
                     
                     }
