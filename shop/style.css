@@ -727,7 +727,7 @@ margin: auto;
 display: flex;
 height: 400px;
 width: 420px;
-background-image: url(image3.png);
+background-image: url(image/image3.png);
 background-size: 120%;
 background-repeat: no-repeat;
 background-position: 50% 100%;
@@ -2056,7 +2056,7 @@ float: right;
       .imageA { 
 margin: auto;
 padding: auto;
-background-image: url(image3.png);
+background-image: url(image/image3.png);
 background-size: 100%;
 background-repeat: no-repeat;
 background-position: 0% 0%;
