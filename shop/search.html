@@ -1,22 +1,13 @@
 
-<!-- Update the searchblox server location below in the action field-->
-<!-- Change the action to http://localhost:8080/searchblox/plugin/index.html shown below if you want faceted search results -->
-<!-- <form action="http://localhost:8080/searchblox/plugin/index.html" onsubmit="return encodeQuery()" method="get"> -->
-<form action="http://localhost:8080/searchblox/servlet/SearchServlet" onsubmit="return encodeQuery()" method="get">
+<div class="searchwrapper">
 
-<!--To add search parameter use the syntax as in the line below-->
 
-<!--<input type="hidden" name="col" value="2">-->
 
-<div class="input-group custom-search-form">
-<input type="text" class="form-control" name="query" value="">
 
-<span class="input-group-btn">
-<button class="btn btn-default" type="search">
-<span class="glyphicon glyphicon-search"></span>
-</button>
-</span>
+  <form class="search-container">
+    <input type="text" id="search-bar" placeholder="Search...">
 
-</span>
+    <a href="#" class="search"><img class="search-icon" src="search-icon.png"></a>
+  </form>
+
 </div>
-</form>
