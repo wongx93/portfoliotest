@@ -1,0 +1,44 @@
+
+
+
+<title>erin wong | shop</title>
+
+
+<link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
+
+
+
+<header class="header">
+  
+    <a href="index.html" class="logo">JEWELRY MAKING 101</a>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    
+    <ul class="menu">
+      <li><a href="#">DIY PROJECTS</a></li>
+      <li><a href="#">BEADING</a></li>
+      <li><a href="#">METALWORK</a></li>
+      <li><a href="#">WIREWRAPPING</a></li>
+      <li><a href="#">STONES</a></li>
+      <li><a href="#">MORE</a></li>
+    </ul>
+
+    <script type="text/javascript">
+    const currentLocation = location.href;
+    const menuItem = document.querySelectorAll('li a');
+    const menuLength = menuItem.length
+    for (let i= 0; i<menuLength; i++){
+      if(menuItem[i].href === currentLocation){
+        menuItem[i].className = "active"
+      }
+    }
+
+
+
+</script>
+
+  </header>
+
+
+

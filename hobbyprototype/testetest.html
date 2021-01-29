@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>erin wong.</title>
+        <link rel="stylesheet" href="style.css">
+    
+        <script src="script.js" type="text/javascript"></script>
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+  <div class="stickywrapper">
+    <div id="header">
+    <header>
+        <h1><a href="index.html">erin wong.</a></h1>
+    
+        <nav>
+            <a href="work.html">work</a>
+            <a href="play.html">play</a>
+            <a href="about.html" class="selected">about</a>
+            <a href="contact.html">contact</a>
+            <a href="Erin Wong Resume 2020.pdf" target="_blank">resumé</a>
+    
+    
+          </nav>
+    </header>
+</div>
+</div>
+<body>
+      <section class="ABOUT">
+        <div class="artwork">
+          <element class="fade-in">
+            <img src="cropabout.gif" width="350px"></element>
+        </div>
+      </figure>
+
+
+        <div class="description">
+        <h2>about me.</h2>
+          <p>
+            I am an NYC-based UX designer with experience in digital publisher ad operations with a<b> certificate in UX/UI from Columbia University Engineering</b> and a <b>B.S. in Media Culture & Communication from New York University,</b> minoring in Business of Entertainment, Media, and Technology.       </p>
+            <P>I have a background in display and video ad implementation & QA across desktop, mobile, tablet, and streaming channels for The Weather Channel and NHL digital properties. 
+            </P>
+            <P> I am fundamentally centered around design-centered thinking methods through established user research, definition, prototyping and testing best practices with an ability to <b>synthesize and evaluate user success </b> via <b>quantifiable metrics, reporting, and analytics. </b>
+             <p> My background in advertising allows me to harmoniously bridge usability needs with broader business objectives and client goals, along with a technical grasp for product and sales workflows.
+            </p>
+        </div>
+     
+      
+        <p>
+         <div class="socials">
+             <center>
+          <a href="https://www.behance.net/erinwong3" target="_blank"><img src="behance-1.svg" width="45" height="45"></a>
+          <a href="https://www.linkedin.com/in/erinwong93/" target="_blank"><img src="linkedin.png" width="45" height="45"></a>
+          <a href="https://github.com/wongx93" target="_blank"><img src="github.png" width="45" height="45"></a>
+             </center>
+              </div>
+            </section>
+
+    
+      
+      <p style="padding-bottom: 10px">
+
+
+        <div class="about2">
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')"  id="defaultOpen">in my habitat</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">in my studio</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">in my library</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <a href="hab1.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="hab1.jpg" alt="art" style="width:100%;max-width:300px;height:100%;max-height:300px"></a>
+  <a href="hab2.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="hab2.jpg" alt="art" style="width:100%;max-width:300px;height:100%;max-height:300px""></a>
+  <a href="hab3.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="hab3.jpg" alt="art" style="max-width:300px;height:100%;max-height:300px""></a>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <a href="artimg1.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="artimg1.jpg" alt="art" style="width:100%;max-width:300px"></a>
+  <a href="artimg2.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="artimg2.jpg" alt="art" style="width:100%;max-width:300px"></a>
+  <a href="artimg3.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="artimg3.jpg" alt="art" style="width:100%;max-width:300px"></a>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <a href="book1.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="book1.jpg" alt="art" style="width:100%;max-width:300px;height:100%;max-height:300px"></a>
+  <a href="book2.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="book2.jpg" alt="art" style="width:100%;max-width:300px;height:100%;max-height:300px""></a>
+  <a href="book3.jpg" class="image" data-toggle="lightbox"><img id="myImg" src="book3.jpg" alt="art" style="width:100%;max-width:300px;height:100%;max-height:300px""></a>
+</div>
+
+        </div>
+
+        <script>
+          AOS.init();
+        </script>
+
+    <!--Scripts, placed at the end of the document so that the pages load faster. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+              event.preventDefault();
+              $(this).ekkoLightbox();
+          });
+    </script>
+
+
+
+<script>
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+<footer>
+
+  <div class="Socials">
+  <a href="https://www.behance.net/erinwong3" target="_blank"><img src="behance-1.svg" width="20" height="20"></a>
+        <a href="https://www.linkedin.com/in/erinwong93/" target="_blank"><img src="linkedin.png" width="20" height="20"></a>
+        <a href="https://github.com/wongx93" target="_blank"><img src="github.png" width="20" height="20"></a>
+        <a href="mailto:wongx93@gmail.com" target="_blank"><img src="email.png" width="20" height="15"></a>
+        <p></div>
+    
+  <div class="copyright">
+  Copyright 2020 Erin Wong All Rights Reserved</div>
+</footer>
+
+</body>
+
+
+</html>
