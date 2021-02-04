@@ -169,7 +169,7 @@ align-items: safecenter;
     position: sticky;
     top: 0px;
   align-items: safecenter;
-    padding-top: 30px;
+    padding-top: 2px;
     padding-bottom: 10px;
     margin-bottom: 0px;
    margin-left: -30px; 
@@ -1234,7 +1234,7 @@ background-image: white;
   margin-left: 0px;
 
 Padding: 8px 5px 10px 0px;
-  top: 200px;
+  top: 170px;
 
   z-index: 2;
    
