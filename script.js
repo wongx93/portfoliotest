@@ -106,3 +106,16 @@ $(window).scroll(function() {
         }
     });
   }).scroll();
+
+
+  $(window).scroll(function() {
+    var scrollDistance = $(window).scrollTop();
+  
+
+    $('.page-section').each(function(i) {
+        if ($(this).position().top <= scrollDistance) {
+            $('.sidebar3 a.active').removeClass('active');
+            $('.sidebar3 a').eq(i).addClass('active');
+        }
+    });
+  }).scroll();
