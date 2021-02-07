@@ -44,21 +44,18 @@
 
 <nav class="sidebar3" id="MainNav">
 
-   <a class="sidebar2__link" href="#intro" data-scroll"intro">I. Intro</a></li>
+   <a class="sidebar3__link" href="#intro" data-scroll="intro">I. Intro</a></li>
     <br>
 
 <a href="#research" data-scroll"research">II. User Research</a></li>
     <br>
 
-<a href="#definition" data-scroll"definition">III. Definition & Ideation</a></li>
+<a href="#definition" data-scroll"definition">III. Defining a Solution</a></li>
     <br>
   
-   <a href="#prototyping" data-scroll"prototyping">IV. Prototyping</a>
+   <a href="#prototyping" data-scroll"prototyping">IV. Coding the Site</a>
     <br>
-
-<a href="#testing" data-scroll"testing">V. Testing & Iterating </a></li>
-<br>
-<a href="#final" data-scroll"final">VI. Final Thoughts</a></li>
+<a href="#final" data-scroll"final">VI. Final Live Product</a></li>
 <p><p><p>
 <div class="next"><a href="Mappetizer.html">← Previous: <br>Mappetizer: Travel Case Study</a></div>
 </nav>
@@ -83,69 +80,286 @@
           </div>
       </div>
 
+
+
+
+
+
     <div class="page-section hero" id="intro">
   
           <div class="mapimg">
             <a href="casestudy3/shopimage.gif" class="image" data-toggle="lightbox">
       <img src="casestudy3/shopimage.gif"></a></div>
     <p></p>
-    <center>   <div class="descrip3"><button><a href="https://shop.erinwong.design" target="_blank">VISIT LIVE SITE</a></button></div></center>
+    <center>   <div class="descrip3"><a href="https://shop.erinwong.design" target="_blank"><button>VISIT LIVE SITE</button></div></a></center>
     
       <h1>I. INTRO</h1></p>
 
       <div data-aos="fade-up">
-          <div class="quote6">
-
-    <p> 
         
+    <p> 
+         As a hobby on the side, I enjoy making handcrafted jewelry and art, and I like to list them for sale on Etsy.
+       
+         <div class="USPSimg">
+         <img src="casestudy3/etsy.png"></div>
+
+
+
+         <div class="quote6">
+<p></p>
         As a seller, my biggest pain point is the limited customization that comes with Etsy’s storefront UI. Etsy store pages are all housed under its parent page templates and it can be difficult to strike a resonating and unique chord with users in an oversaturated market with so many sellers. 
     
 
  <p style="margin-bottom:50px"></p>
         I’ve noticed that Etsy shoppers were more inclined to say “I bought this on Etsy” rather than name an individual storefront. I wanted to learn more about users in order to foster a more unique, memorable, and professional-feeling experience that held true to my artistic vision and the voice I wanted to convey to my store audience.
     </p>
+
+    <center>
+    <h6>TOOLS</h6>
+    <p></p> <img src="icons/xd.png" width="50px">
+    <img src="icons/vscode.png" width="50px">
+    <img src="icons/invision.png" width="50px">
+  </center>
     </div>
         <p></p></div>
-        <div data-aos="fade-up">
-            
-        
-          <div data-aos="fade-up">
 
-          <h10>TOOLS</h10>
-          <p></p> <img src="icons/xd.png" width="50px">
-          <img src="icons/vscode.png" width="50px">
-
-
-      
-      </div>
 
       <p style="margin-bottom:80px"></p>
    
-
+  </div>
     
+
+  <p>
+
+
     <div class="page-section hero" id="research">
   <div data-aos="fade-up">
   <h1>II. USER RESEARCH</h1></p>  
+ I created two surveys, one for Etsy sellers and one for for buyers, and reached out to folks on Reddit for their input.
+  <div class="USPSimg">
+    <img src="casestudy3/survey.gif"></div>
+
 
 </div>
+</div>
 
-<div class="page-section hero" id="testing">
-              <div data-aos="fade-up">
-              <h1>V. TESTING & ITERATING</h1></p>
+
+ 
+<div class="page-section hero" id="definition">
+    <div data-aos="fade-up">
+    <h1>III. DEFINITION & IDEATION</h1></p>  
+    Our users are motivated by unique and one-of-a-kind products. They are more inclined to shop locally and favor more personable interactions with a business. Buying from a local artist feels like supporting a neighbor or friend. 
+
+<p>
+  From the research I gathered, I was able to craft the user following persona: 
+  <div class="USPSimg">
+    <img src="casestudy3/persona.png"></div>
+  <p><h6>USER NEEDS</h6>
+    Kasey finds it is easy to forget a specific Etsy shop name when all of the stores live under the same look & feel. It's hard to get a personalized feel for businesses that are on the standard Etsy model. <p>Furthermore, it can get overwhelming to see such a large volume of stores & products. On the stores themselves, each site is a one-pager and it can be tedious to browse and to process information visually.   
+    <div class="USPSimg">
+        <img src="casestudy3/etsy1.gif"></div>
+        <div class="figcaption2">Doom-scrolling can lead to user dissatisfaction & ambivalence.</div>
+
+<p><h6>STAKEHOLDER NEEDS</h6>
+    Using Etsy’s default storefront model and marketplace seemed to be watering down the specifically unique brand and voice I wanted to cultivate and communicate across to our audience. There is also the risk of higher bounce rates with the presence of so many competitors in the immediate visual vicinity of a specific shop.
+<p>
+   <b><i> How might I maneuver away from this standardized look & feel of the shop and strike a more resonating & memorable presence within target users?</i> </b>
+    
+<p><h6>PLAN ANALYSIS & RECOMMENDATION</h6>
+    To migrate into a standalone storefront website, I evaluated the following proposals: <b>Etsy Pattern, Shopify,</b> and <b> a self-hosted domain. </b>
+    <p>
+
+    <div class="tablewrapper">
+        <table>
+            <tr><td><h1>Etsy</h1>
+            Run traditional storefront within Etsy's UI 
+            </td>
+
+            <tr><td id="price">Listing fee:<br> $.020 per item / 4 months. 
+              <br>5% on every purchase. 3% + $0.25 on every purchase</td>
+              <tr><td id="ui">Limited storefront customization - <b>stores are boxed into Etsy's overarching UI</b>
+                <p><i>Etsy Pattern exists for additional $15//month with ~10 more unique template options</i>
+                </td>
+                <tr><td id="analytics">Etsy Analytics (in-house)</td></tr>
+                <tr><td id="cost">~$122-245 a year*</td></tr>
+                <tr><td id="cost">Cost: <b>LOW</b></td></tr>
+                <tr><td id="loe">Level of effort: <b>LOW</b></td></tr>
+              <tr><td class="noborder">
+               Lowest seller fees. Low barrier of entry and learning curve. 
+<p>            Limited customization options for UI design. 
+  
+  <p> Oversaturated marketplace can lead to larger competitor pools, higher bounce rates/abandoned shopping carts, and reduced brand impact
+
+              </td>
+         
+          </table>
+
+
+          <table>
+            <tr><td><h1>Shopify Basic</h1>
+            Host store within Shopify Basic plan, use domain + premade theme </td>
+
+            <tr><td id="price">Basic plan = $29 / month</td>
+            <tr><td id="ui">More storefront UI customization: 100+ free/premium designed templates available. 
+              <p><b>Potential risk of looking too much like other shops built with Shopify</b>
+            </td>
+            <tr><td id="analytics">Shopify Analytics (in-house)</td></tr>
+            <tr><td id="cost">~ $348 a year </td></tr>
+            <tr><td id="cost">Cost: <b>HIGHER</b></td></tr>
+            <tr><td id="loe">Level of effort:<b> LOW</b></td></tr>
+              <tr><td class="noborder">More customization, lots of professional looking themes. Can host on your own domain as a standalone website. Comes with Analytics
+<P>
+            Still constrained to UI of templates. Higher costs.</td>
+         
+          </table>
+
+
+          <table>
+            <tr><td><h1>Self-hosted site</h1>
+            Create entire store from scratch, including POS on backend
+            </td>
+
+            <tr><td id="price">Hosting: ~$2-10/month + Addtl cost of externally resourcing POS system to be engineered on backend <br> <a href="https://medium.com/gobeyond-ai/how-much-would-it-cost-to-develop-a-pos-like-vend-or-shopify-6f801182306" class="selected">(expensive, est. several thousand dollars)</a>
+
+            </td>
+            <tr><td id="ui"><b>Complete freedom with UI design - sky is the limit. </b>
+
+              <P>Need to outsource external dev work (very expensive!!)</P>
+            </td>
+            <tr><td id="analytics">Up to you - can use Google Analytics, HotJar, etc.</td></tr>
+            <tr><td id="cost">~ $120-240 a year + additional dev cost <a href="https://medium.com/gobeyond-ai/how-much-would-it-cost-to-develop-a-pos-like-vend-or-shopify-6f801182306">(high)</a></td></tr>
+            <tr><td id="cost">Cost: <b>HIGHEST</b></td></tr>
+            <tr><td id="loe">Level of effort: <b>HIGH</b></td></tr>
+
+
+              <tr><td class="noborder">
+          Full fledged freedom and ownership of UI design & analytics methodology.
+<p>     Engineering work to build a POS from scratch will be very expensive and may be overkill & ineffective use of resources for what we are trying to accomplish. 
+
+              </td>
+         
+          </table>
+
+
+
+                <table id="recommended">
+            <tr><td class="recc">  <div data-aos="fade-in"><h2>Recommended</h2></div><h1>Hybrid</h1>self-hosted HTML site + Shopify Lite CDN integration</td>
+
+            <tr><td id="price">Approx ~$2-10/month for static web hosting + $9/month for Shopify Lite</td>
+            <tr><td id="ui">No need to outsource dev work as front-end can be done with basic HTML/CSS/Javascript. <b><p>Shopify Lite to secure facilitate purchae touchpoints</b>
+            <p>Still have freedom with UI design.</p></td>
+           <tr><td id="analytics">Up to you - can use Google Analytics, HotJar, etc.</td></tr>
+           <tr><td id="cost">~$138 - 228 a year </td></tr>
+           <tr><td id="cost">Cost: <b>LOW-MODERATE</b></td></tr>
+           <tr><td id="loe">Level of effort: <br><b>MODERATE-HIGH</b></td></tr>
+           
+           
+            <tr><td class="noborder">Full customization and freedom with UI & traffic analytics. 
+
+              <p>Shopify Lite is simple and expensive way to integrate purchase functionality with a little elbow grease & creative applications of jQuery</p>
+            </td>
+         
+          </table>
+  
+
+        </div>
+
+        <div class="figcaption2">*operating on premise that we sell 50-100 items in 1 year</div>
+        <p style="margin-bottom:50px"></p>
+        I decided to move forward with a <b>hybrid model</b> of self-coding the front-end of the store and having the purchase touchpoints facilitated by Shopify Lite’s Buy Button plan. 
+        
+        <p></p>Shopify Lite allows sellers to generate and embed a buy button code within the HTML of an external site or on social media. 
+ <p></p>
+        At $9/month, this was significantly cheaper than opting for the full Shopify Basic plan that included a store site via its premade themes. 
+        <p></p>
+        
+        
+        This way, I had full control of the general look & feel of the storefront and I would be able to adjust according to user needs without having to be held to the constraints of a predefined template or theme. 
+        <p></p>
+        (I would also be able to flex my beginner coding muscles!)
+        
+        <p style="margin-bottom:50px"></p>
+
+
+  </div>
+
+  <div class="page-section hero" id="prototyping">
+    <div data-aos="fade-up">
+    <h1>IV. CODING THE SITE</h1></p>  
+    </div>
+    After creating preliminary sketches in InVision, I created wireframes in Adobe XD. I coded the live site in HTML, CSS, and (basic) Javascript. 
+
+    <div class="USPSimg">
+      <img src="casestudy3/sketches.PNG"></div>
+
+    <div class="USPSimg">
+      <img src="casestudy3/xdwires.PNG"></div>
+
+<p>
+I used a jQuery load() method in order to create a component state for navigation & footer elements. 
+
+<p>
+  By using jQuery or PHP to return data into a selected element, I was able to create 'component states'
+from my prototyping. Changes to the root html file would reflect on all pages without manual editing. 
+
+<div class="USPSimg">
+  <img src="casestudy3/componentstate.png"></div>
+
+
+<p>I integrated products and full purchase functionality by generating the embed button code from Shopify Buy Button and injecting into the page layout via jQuery.</p>
+<div class="USPSimg">
+<img src="casestudy3/shopify.PNG"></div>
+
+
+
+The result? A fully working e-commerce storefront.
+<div class="USPSimg">
+  <img src="casestudy3/shoppingcart1.gif"></div>
+  
+
+
+  </div>
+  
+  
+  
+<h6>MAKING IT RESPONSIVE</h6>
+<div class="USPSimg">
+  <img src="casestudy3/responsive.gif"></div>
+  </div>
+
+
+
     
   
   
+
+
   <div class="page-section hero" id="final">
        
     
     <div data-aos="fade-up">
-        <h1>VI. FINAL PRODUCT</h1></p>
+        <h1>VI. FINAL PRODUCT: LIVE SITE</h1></p>
+
+
+    <div class="buttoncontainer">
+      <div class="descrip3"><a href="https://shop.erinwong.design" target="_blank"><button>VISIT LIVE SITE</button></div></a></center>
+    
+ </div>
+
+
+
 
     </div>
 
+    
+    
+
+
+
+</div>
 
 <p>
-  <div class="quotefooter2"><center>THANK YOU FOR READING!
+  <div class="quotefooter3"><center>THANK YOU FOR READING!
   <p>Questions, comments, or feedback? I'd love to hear it. Please drop me a line <br> <a href="contact.html">here.</a></p>
 
 

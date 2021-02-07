@@ -119,3 +119,38 @@ $(window).scroll(function() {
         }
     });
   }).scroll();
+
+
+
+
+
+
+jQuery(document).ready(function(e) {
+  var WindowHeight = jQuery(window).height();
+
+  var load_element = 0;
+
+  //position of element
+  var scroll_position = jQuery('#recommended').offset().top;
+
+  var screen_height = jQuery(window).height();
+  var activation_offset = 0;
+  var max_scroll_height = jQuery('body').height() + screen_height;
+
+  var scroll_activation_point = scroll_position - (screen_height * activation_offset);
+
+  jQuery(window).on('scroll', function(e) {
+
+      var y_scroll_pos = window.pageYOffset;
+      var element_in_view = y_scroll_pos > scroll_activation_point;
+      var has_reached_bottom_of_page = max_scroll_height <= y_scroll_pos && !element_in_view;
+
+      if (element_in_view || has_reached_bottom_of_page) {
+          jQuery('#recommended').addClass("colorchange");
+      } else {
+          jQuery('#recommended').removeClass("colorchange");
+      }
+
+  });
+
+});

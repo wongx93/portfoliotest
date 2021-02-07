@@ -1167,6 +1167,19 @@ font-size: 13px;
 
   }
 
+
+  
+  div.quotefooter3 {
+    
+    background-color:#d3e5e79a;
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 40px 30px 40px 30px;
+    margin-top: 30px;
+
+  }
+
   div.quote2 {
     margin-top: 10px;
     color: #F1F1F1;
@@ -1206,6 +1219,144 @@ font-size: 13px;
     margin: 20px 10px 30px 10px;
 
   }
+
+.tablewrapper { 
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  display: inline-flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+
+
+  table {
+    table-layout: absolute;
+    width: 25%;
+   background-color: #d6d4d4;
+   border-radius: 5px 5px 5px 5px;
+   margin-left: 2px;
+   margin-right: 2px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+  
+  td {
+    border-bottom: 1px solid rgb(167, 167, 167);
+    overflow: hidden;
+    text-overflow: wrap;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+  }
+
+
+  td#price {
+height: 110px;
+  }
+
+  td#ui {
+    height: 184px;
+      }
+
+td#analytics {
+        height: 80px;
+          }
+
+td#loe {
+            height: 50px;
+              }
+    
+      td#cost {
+                height: 50px;
+                  }
+        
+
+  .noborder {
+                    border-bottom: none;
+                    height: 250px;
+                    font-size: 14px;
+                    padding: 5px 5px 5px 5px;
+                    line-height: 1.2;
+                      }
+                    
+
+  .recc { 
+    align-items: top;
+  }
+
+
+  td h1 { 
+font-size: 15px;
+font-weight: 800;
+
+  }
+
+
+
+  td h2 { 
+    font-size: 13px;
+    font-weight: 800;
+    color: black;
+    background-color: rgb(255, 255, 0);
+    line-height: 1.2;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    
+    }
+    
+
+  
+  
+.buttoncontainer {
+      max-width: 100%;
+      text-align: center;
+      justify-content: space-between; 
+      padding: 15px 50px 15px 10px;
+      vertical-align: middle;
+      margin: 10px 10px 10px 10px;
+      background-image: url(/casestudy3/splashimage.gif);
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+      height: 450px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+
+
+
+
+
+.colorchange { 
+   animation: colorchange 5s forwards;
+   border-style: solid;
+   border-width: 2px;
+   border-color: #fafca5;
+  
+}
+
+@keyframes colorchange{
+  from {background-color: #d6d4d;}
+  to {background-color: rgb(245, 210, 182);}
+}
+
+
+
+
+
 
 
   div.surveywrapper {
@@ -1445,13 +1596,43 @@ justify-content: Center;
 align-items: center;
 margin-left: auto;
 margin-right: auto;
-width: 350px;
+width: 300px;
 font-weight: 400;
 border-radius: 20px 20px 20px 20px;
+box-shadow: 5px 5px #94d1ce6e;
 font-size: 13px;
-
+color: white;
 
   }
+
+
+
+  .descrip3 button:hover{
+    background-color:#414141;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    justify-content: Center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 400;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px #d194c75b;
+    font-size: 13px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translate(-2%,-2%);
+    font-weight: 800;
+    text-shadow: 4px 4px #d194a96e;
+    
+    
+      }
+
 
   .descrip3 button a{
 
