@@ -1783,7 +1783,7 @@ color: white;
   width: 55ch;
   overflow: hidden;
   font-family: 'Josefin Sans', monospace;
-  font-size: 21px;
+  font-size: 18px;
   white-space: nowrap;
   animation: reveal 5s steps(55, end);
 
