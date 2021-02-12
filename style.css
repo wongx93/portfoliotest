@@ -1888,8 +1888,11 @@ color: white;
   
     .type {
       display: inline-block;
+white-space: pre-line;
+width: 300px;
+height: auto;
       font-size: 18px;
-
+      overflow: wrap;
       /*CSS transitions*/
       -o-transition-property: none !important;
       -moz-transition-property: none !important;
@@ -1909,6 +1912,20 @@ color: white;
       -ms-animation: none !important;
       animation: none !important;
     }  
+
+
+  
+  
+  &::after {
+    position: relative;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: #60B99A;
+    animation: none;
+  }
 
     .indexgallery {
       display: inline-block;
