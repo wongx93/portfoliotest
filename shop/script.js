@@ -42,6 +42,10 @@ $(function(){
   $(function(){
     $("#single").load("singles.html"); 
   });
+
+  $(function(){
+    $("#chinatown").load("chinatown.html"); 
+  });
   
 
 

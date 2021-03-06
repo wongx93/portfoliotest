@@ -1250,6 +1250,13 @@ font-weight: 600;
 
 }
 
+
+.productnav a.chinatown{ 
+
+color: #b66161;
+
+}
+
 .productnav a:hover {
 
   color: #000000;
