@@ -1421,6 +1421,8 @@ footer {
   text-align: center;
   font-size: 13px;
   z-index: 3;
+  bottom: 0;
+  position: fixed;
 }
 
 
@@ -2177,6 +2179,7 @@ display: inline-block;
 
 .footer { 
   width: 100%;
+
 }
 
 
