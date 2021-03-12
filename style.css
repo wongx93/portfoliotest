@@ -42,7 +42,10 @@ display: grid;
 }
 
 .header {
-  background-color: #f8fffe;
+  background: linear-gradient(#f8fffe,#f8fffe,#f8fffe,#f8fffed5, #f8fffed5,#f8fffec2, #f8fffe46, #f8fffe09, #f8fffe00);
+  background-size: 100%;
+  background-repeat: no-repeat;
+ 
   position: fixed;
   width: 100vw;
   z-index: 3;
@@ -2011,7 +2014,7 @@ div.content {
 
 .header {
 
-  background-color: #f1f1f1;
+
   position: fixed;
   width: 100vw;
   z-index: 3;
