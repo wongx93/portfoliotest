@@ -2025,6 +2025,9 @@ div.content {
 
 }
 
+.breadcrumb {
+  background-color: #f8fffe; 
+}
 
 .responsive {
   width: 50vw;
