@@ -2027,6 +2027,8 @@ div.content {
 
 .breadcrumb {
   background-color: #f8fffe; 
+  line-height: 2.5;
+  padding: 10px 3px 10px 3px;
 }
 
 .responsive {
