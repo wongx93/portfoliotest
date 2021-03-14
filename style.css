@@ -672,6 +672,7 @@ nav.sidebar {
     padding: 10px 10px 10px 10px;
     line-height: 2.5;
     font-size: 13px;
+    box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(202, 116, 159, 0.19);
 
   
     &__link {
@@ -873,13 +874,14 @@ text-align: left;
         background-color: #d3e5e79a;
         margin-left: 0px;
         margin-top: 250px;
-    
+        box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(202, 116, 159, 0.19);
         position: fixed;
         text-align: right;
         justify-content: right;
         padding: 10px;
         line-height: 2.5;
         font-size: 13px;
+
       }
     
         &__link {
@@ -908,7 +910,7 @@ text-align: left;
     background-color: #ffe9d9;
     margin-left: 0px;
     margin-top: 250px;
-
+    box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(202, 116, 159, 0.19);
     position: fixed;
     text-align: right;
     justify-content: right;
