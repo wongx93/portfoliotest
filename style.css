@@ -2377,3 +2377,67 @@ div.about img {
        font-size: 14px;
        
         }
+
+        .contactmodal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 4; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100vh; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        /* Modal Content */
+        .contactmodal-content {
+          position: relative;
+          background-color: #ffffff;
+          margin: auto;
+          padding: 10px 20px 5px 10px;
+          border: 1px solid #888;
+          border-radius: 5px;
+          background-image: linear-gradient(to bottom right,#ffb6cc7a, #ffdbb87a);
+          width: 300px;
+          height: 520px;
+          top: 60px;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+          -webkit-animation-name: animatetop;
+          -webkit-animation-duration: 0.4s;
+          animation-name: animatetop;
+          animation-duration: 0.4s;
+        }
+      
+        .contactmodal-content .modalbody { 
+         padding: auto;
+        }
+      
+        
+      label  .contactmodal-content input, textarea {
+          width: 90%;
+          height: auto;
+          border: 2px solid #BC7A90;
+          background-color: white;
+          color:#4e4e4e ;
+      padding: auto;
+      margin: auto;
+          font-family: Josefin Sans;
+          font-size: 18px;
+          
+        }
+        
+        label .contactmodal-content input, textarea.message {
+          width: 90%;
+          height: 80px;
+          border: 2px solid #BC7A90;
+          background-color: white;
+          color:#4e4e4e ;
+      padding: auto;
+      margin: auto;
+          font-family: Josefin Sans;
+          font-size: 18px;
+          
+        }
