@@ -355,13 +355,13 @@ margin: auto;
   .close {
     color: black;
     float: right;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 40px;
+ 
   }
   
   .close:hover,
   .close:focus {
-    color: #black;
+    color: #79686e;
     text-decoration: none;
     cursor: pointer;
   }
@@ -665,6 +665,18 @@ section {
 
   }
   
+    
+div.fingmargin#webmargin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto
+  
+
+  }
   
 
  
