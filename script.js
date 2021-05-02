@@ -121,7 +121,9 @@ $(window).scroll(function() {
   }).scroll();
 
 
-
+  $(function(){
+    $("#loadcontact").load("contactform.html"); 
+  });
 
 
 
