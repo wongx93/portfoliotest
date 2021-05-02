@@ -150,7 +150,7 @@ deco{
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 500px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -465,7 +465,7 @@ colorchange {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 300px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -2070,12 +2070,13 @@ color: white;
 
   @media only screen and (max-width : 768px) {
 
+    
     body {
     overflow-x: hidden;
+
   }
 
-  
-  
+
     .type {
       display: inline-block;
 white-space: pre-line;
@@ -2124,25 +2125,26 @@ height: auto;
        
     }
 
+    section { 
+      margin-left: 5px;
+      margin-right: 5px;
+    }
     
     .mainbody { 
       display: block;
- 
-font-size: 18px;
+font-size: 16px;
 margin-top: 140px;
-margin-left: 10px;
-margin-right: 10px;
-
+margin-left: 20px;
+margin-right: 20px;
 overflow: -moz-hidden-unscrollable;
 
     }
 
-
-
-
-
-
-
+.fingmargin { 
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 80%;
+}
 
   
   
@@ -2441,3 +2443,38 @@ div.about img {
           font-size: 18px;
           
         }
+
+        #mycontactBtn{
+          position: fixed;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          position: sticky;
+          background-image: linear-gradient(to bottom right,#f891b07a, #e7a76a7a);
+          width: 50px;
+          height: 45px;
+          border: none;
+          border-radius: 10px 0px 0px 10px;
+         right: 0px;
+          z-index: 4;
+          }
+        
+        
+          #mycontactBtn:hover{
+            position: fixed;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            position: sticky;
+            transition: all .3s ease-in-out;
+            background-image: linear-gradient(to bottom right,#94ffdb7a, #8db5c77a);
+  
+            border: none;
+            border-radius: 10px 0px 0px 10px;
+            z-index: 4;
+            } 
+        
+          #mycontactBtn img {
+            width: 22px;
+          }
+          
