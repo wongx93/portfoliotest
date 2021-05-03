@@ -2153,8 +2153,8 @@ overflow: -moz-hidden-unscrollable;
     }
 
 .fingmargin { 
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 6px;
+  margin-right: 6px;
   width: 80%;
 }
 
@@ -2170,8 +2170,8 @@ overflow: -moz-hidden-unscrollable;
     
 
 
-  input, textarea {
-    width: 60%;
+ input.contact, textarea.contact {
+    width: 80%;
     border: 2px solid #BC7A90;
     background-color: white;
     color:#4e4e4e ;
