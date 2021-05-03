@@ -228,6 +228,49 @@ textarea.contact {
   font-family: Josefin Sans;
 }
 
+a.about {
+  margin: auto;
+color: #c46b91;
+font-weight: 600;
+text-decoration: underline;
+}
+
+spin {
+
+  display: inline-flex;
+  font-size: 28px;
+  -webkit-animation: spin 3.5s infinite linear;
+}
+
+@-webkit-keyframes spin {
+0%  {-webkit-transform: rotate(0deg);}
+100% {-webkit-transform: rotate(360deg);}	
+}
+
+.popindiv{
+	border: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+	-webkit-animation:pop-in 0.9s;
+	-moz-animation:pop-in 0.9s;
+	-ms-animation:pop-in 0.9s;
+	}
+
+	@-webkit-keyframes pop-in {
+		0% { opacity: 0;-moz-transform: scale(0.5);-webkit-transform: scale(0.5); }
+		100% { opacity: 1;-moz-transform: scale(1);-webkit-transform: scale(1); }
+	}
+
+	@-moz-keyframes pop-in {
+		0% { opacity: 0;-moz-transform: scale(0.5);-webkit-transform: scale(0.5); }
+		100% { opacity: 1;-moz-transform: scale(1);-webkit-transform: scale(1); }
+	}
+
+	@-ms-keyframes pop-in {
+		0% { opacity: 0;-moz-transform: scale(0.5);-webkit-transform: scale(0.5); }
+		100% { opacity: 1;-moz-transform: scale(1);-webkit-transform: scale(1); }
+	}
 
 textarea {
   height: 220px;
