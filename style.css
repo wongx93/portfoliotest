@@ -694,12 +694,15 @@ section {
 
   }
 
-  
+  .w3-animate-bottom{position:relative;animation:animatebottom 1.5s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+
+
  div.description {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+line-height: 1.2;
 
     justify-content: center;
 
