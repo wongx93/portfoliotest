@@ -37,6 +37,18 @@ width: 70vw;
 }
 
 
+.insitecontainer { 
+  width: 480px;
+  height: 280px;
+  background-image: url(/heroimageinsite.gif);
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(187, 161, 175, 0.103), 0 6px 20px 0 rgba(100, 95, 98, 0.151);
+  margin: 15px 15px 15px 10px;
+
+}
+
 .flexcontainer { 
 display: grid;
 
@@ -2257,6 +2269,18 @@ div.content {
 
 }
 
+.buttoncontainer1 { 
+  width: 100vw;
+  background-color: yellow;
+}
+
+.buttoncontainer1 button { 
+ color: yellow;
+}
+
+button.button1 {
+  color:yellow;
+}
 
 
 .header {
@@ -2537,3 +2561,5 @@ div.about img {
             width: 22px;
           }
           
+          
+        
