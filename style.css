@@ -2571,16 +2571,17 @@ div.about img {
           
           .scrolling-wrapper {
       
-            overflow-x: auto;
-            overflow-y: auto;
+            overflow-x: scroll;
+            overflow-y: scroll;
          padding-right: 200px;
          padding-left: 1200px;
          width: 100%;
          height: 400px;
         margin: auto;
-        border-radius: 2px;
+        border-width: 2px;
+
         border-color: #000000;
-          background-color: rgb(173, 153, 173);
+          background-color: rgba(173, 153, 173, 0.877);
             scrollbar-width: none; /* Firefox */
     
           }
