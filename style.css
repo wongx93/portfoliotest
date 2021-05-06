@@ -2578,7 +2578,9 @@ div.about img {
          width: 100%;
          height: 400px;
         margin: auto;
-          background-color: magenta;
+        border-radius: 2px;
+        border-color: #000000;
+          background-color: rgb(173, 153, 173);
             scrollbar-width: none; /* Firefox */
     
           }
@@ -2587,7 +2589,7 @@ div.about img {
           
           
           .scrolling-wrapper::-webkit-scrollbar {
-            width: 1px;
+            width: 10px;
           }
           
           /* Track */
