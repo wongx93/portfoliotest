@@ -109,7 +109,9 @@ deco{
   font-weight: 800;
 }
 
-
+.contact a.email { 
+ margin: none;
+}
 
 /* menu */
 
