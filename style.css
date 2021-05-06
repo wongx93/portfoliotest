@@ -2570,22 +2570,16 @@ div.about img {
           
           
           .scrolling-wrapper {
-background-color: magenta;
-height: 500px;
-width: 100%;
-padding-left: 100px;
+      
+            overflow-x: auto;
+            overflow-y: auto;
+         
+        margin: auto;
+          background-color: magenta;
+            scrollbar-width: none; /* Firefox */
     
           }
 
-          .tablewrapper {
-
-    display: none;
-         
-          }
-
-          table { 
-            display: none;
-          }
 
           
           
