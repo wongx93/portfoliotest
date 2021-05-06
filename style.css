@@ -70,6 +70,8 @@ padding-bottom: 3px;
 }
 
 
+
+
 .header ul {
   margin-right: 140px;
 
@@ -1597,7 +1599,23 @@ font-weight: 800;
     }
 
 
+  
+    .buttoncontainerA {
+      max-width: 100%;
+      text-align: center;
+      justify-content: space-between; 
+      padding: 15px 50px 15px 10px;
+      vertical-align: middle;
+      margin: 10px 10px 10px 10px;
 
+
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
 
 
 
@@ -2269,18 +2287,7 @@ div.content {
 
 }
 
-.buttoncontainer1 { 
-  width: 100vw;
-  background-color: yellow;
-}
 
-.buttoncontainer1 button { 
- color: yellow;
-}
-
-button.button1 {
-  color:yellow;
-}
 
 
 .header {
@@ -2562,4 +2569,58 @@ div.about img {
           }
           
           
-        
+          .scrolling-wrapper {
+      
+            overflow-x: auto;
+            overflow-y: auto;
+         
+        margin: auto;
+          background-color: aqua;
+            scrollbar-width: none; /* Firefox */
+    
+          }
+
+          .tablewrapper {
+
+            overflow: auto;
+          background-color: aqua;
+          padding: 10px 10px 10px 10px;
+            scrollbar-width: none; /* Firefox */
+         
+          }
+
+
+          
+          
+          .scrolling-wrapper::-webkit-scrollbar {
+            width: 1px;
+          }
+          
+          /* Track */
+          .scrolling-wrapper::-webkit-scrollbar-track {
+          
+            border-radius: 10px;
+          }
+           
+          /* Handle */
+          .scrolling-wrapper::-webkit-scrollbar-thumb {
+            background: rgb(113, 88, 134); 
+            border-radius: 10px;
+            
+          }
+          
+          /* Handle on hover */
+          .scrolling-wrapper::-webkit-scrollbar-thumb:hover {
+            background: rgb(181, 149, 207); 
+          }
+          
+          .scrolling-wrapper .tab {
+            flex-direction: flex-end;
+          
+            }
+            
+          
+          .scrolling-wrapper .tab button{
+          margin-right: 50px;
+          }
+          
