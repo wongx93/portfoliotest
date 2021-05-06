@@ -2242,7 +2242,7 @@ overflow: -moz-hidden-unscrollable;
       text-align: left;
       margin-left: auto;
     width: auto;
-    margin-right: 8px;
+
   }
     
 
@@ -2569,17 +2569,16 @@ div.about img {
           }
           
           
-          .scrolling-wrapper {
+          .tablewrapper {
       
-            overflow-x: scroll;
-            overflow-y: scroll;
+            overflow-x: auto;
+            overflow-y: auto;
          padding-right: 200px;
-         padding-left: 1200px;
+         padding-left: 200px;
          width: 100%;
          height: 400px;
         margin: auto;
         border-width: 2px;
-
         border-color: #000000;
           background-color: rgba(173, 153, 173, 0.877);
             scrollbar-width: none; /* Firefox */
@@ -2620,4 +2619,20 @@ div.about img {
           .scrolling-wrapper .tab button{
           margin-right: 50px;
           }
+
+
+          
+ div.description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+line-height: 1.2;
+
+    justify-content: center;
+
+    width: 100%;
+    height: auto
+
+  }
+  
           
