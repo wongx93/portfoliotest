@@ -25,7 +25,7 @@ function showSlides() {
 	if (slideIndex > slides.length) {slideIndex = 1;}
 	if (slideIndex < 1) {slideIndex = slides.length;}
 	for (var i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
+		slides[i].style.display = "block";
 	}
 	slides[slideIndex-1].style.display = "block";
 	var dots = document.getElementsByClassName("slide-dot");
