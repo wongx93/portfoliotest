@@ -2110,16 +2110,9 @@ color: white;
   }
   
   /* Modal Content (Image) */
-  .modal-content {
-    text-align: center;
-    justify-content: center;
-    padding: auto;
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  
+
+
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
   #caption {
@@ -2339,8 +2332,7 @@ div.content {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  height: 80%;
-  width: auto;
+  width: 100%;
  
 }
       
