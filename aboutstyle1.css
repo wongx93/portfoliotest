@@ -503,13 +503,6 @@ left: 5%;
 
 
 
-
-
-
-
-
-@media only screen and (max-width : 783px) {
-
     @media only screen and (max-width : 1099px) {
 
 
@@ -562,23 +555,7 @@ left: 5%;
     
   
 
-    .circle--rotate > li .icon {
-        visibility: visible;
-        cursor: pointer;
-        text-align: center;
-        overflow: hidden;
-        font-size: 10px;
-        color: #ffffff;
-        border-radius: 50%;
-        background-color: #000000;
-        margin: 100px 100px 100px 100px;
-        height: 30%;
-        width: 30%;
-
-        transition: all 500ms ease;
-        box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.2);
-      }
-            
+         
     
       .services {
         width: 100%;
@@ -614,11 +591,34 @@ left: 5%;
     
     
     
+    @media only screen and (max-width : 375px) {
     
     
     
+        .circle--rotate > li .icon {
+            visibility: visible;
+            cursor: pointer;
+            text-align: center;
+            overflow: hidden;
+            font-size: 10px;
+            color: #ffffff;
+            border-radius: 50%;
+            background-color: #000000;
+            margin: 100px 100px 100px 100px;
+            height: 30%;
+            width: 30%;
     
+            transition: all 500ms ease;
+            box-shadow: -10px 10px 25px rgba(212, 186, 186, 0.2);
+          }
     
+          
+          
+      .animate-img__in#circle1 { 
+        background-color: rgb(212, 211, 216);
+
+
+    }
     
     }
 
