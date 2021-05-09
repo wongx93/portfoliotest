@@ -40,6 +40,8 @@
     z-index: 10;
     visibility: hidden;
   }
+
+
   .circle--rotate > li .icon {
     visibility: visible;
     cursor: pointer;
@@ -558,6 +560,7 @@ left: 5%;
 
     }
     
+  
 
     .circle--rotate > li .icon {
         visibility: visible;
@@ -568,7 +571,7 @@ left: 5%;
         color: #ffffff;
         border-radius: 50%;
         background-color: #000000;
-        margin: 10px 10px 10px 10px;
+        margin: 100px 100px 100px 100px;
         height: 30%;
         width: 30%;
 
@@ -601,6 +604,12 @@ left: 5%;
       }
     
     
+    
+      .animate-img__in#circle1 { 
+        background-color: rgb(212, 211, 216);
+
+
+    }
     
     
     
