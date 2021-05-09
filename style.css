@@ -969,6 +969,23 @@ nav.sidebar {
   box-shadow: 4px 4px #d1bcc7;
  }
 
+
+ 
+
+ .prev  {
+  background-color: #ffffffd0;
+  width: 120px;
+  margin: 20px 0px 0px 15px;
+  padding: 10px 20px 20px 10px;
+  display: float;
+  line-height: 2;
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+  position: fixed;
+  box-shadow: 4px 4px #d1bcc7;
+ }
+
  @keyframes load{
   from {
     width: 0%
