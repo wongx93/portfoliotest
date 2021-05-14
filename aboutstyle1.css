@@ -334,7 +334,7 @@ font-size: .8em;
     bottom: 0;
     margin: auto;
 top: 16%;
-    background-color: rgba(255, 255, 0, 0.24);
+
     width: 70%;
     height: 70%;
   }
@@ -355,7 +355,7 @@ font-size: 16px;
         position: absolute;
 padding: 5px 5px 5px 15px;  
 left: 5%;
-background-color: yellow;
+
 height: 100px;
 
         text-align: left;
@@ -431,8 +431,9 @@ height: 100px;
     
           }
     
-    
-      
+          .animate-img__in#circle1 { 
+            background-color: rgba(207, 207, 207, 0.507);
+          }
 
 
           @media only screen and (max-width : 400px) {
