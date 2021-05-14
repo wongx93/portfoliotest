@@ -2644,3 +2644,11 @@ line-height: 1.2;
   }
   
           
+  div.USPSimg {
+    max-width: 100vw;
+    text-align: center;
+    justify-content: space-between; 
+  
+    vertical-align: middle;
+    margin: 15px 0px 15px 0px;
+    }
