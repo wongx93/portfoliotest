@@ -362,7 +362,7 @@ right: 0;
     background-image: linear-gradient(to bottom right,#ffb6cc7a, #ffdbb87a);
     width: 400px;
     height: 520px;
-    top: 50px;
+    top: 0px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -380,7 +380,7 @@ label  .contactmodal-content input, textarea {
     height: auto;
     border: 2px solid #BC7A90;
     background-color: white;
-    color:#4e4e4e ;
+    color:#9797976b ;
 padding: auto;
 margin: auto;
     font-family: Josefin Sans;
