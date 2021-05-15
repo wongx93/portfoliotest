@@ -2486,7 +2486,7 @@ div.about img {
         .contactmodal {
           display: none; /* Hidden by default */
           position: fixed; /* Stay in place */
-          z-index: 4; /* Sit on top */
+          z-index: 100; /* Sit on top */
           padding-top: 100px; /* Location of the box */
           left: 0;
           top: 0;
@@ -2514,6 +2514,7 @@ div.about img {
           -webkit-animation-duration: 0.4s;
           animation-name: animatetop;
           animation-duration: 0.4s;
+          z-index: 100;
         }
       
         .contactmodal-content .modalbody { 
