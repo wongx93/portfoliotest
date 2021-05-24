@@ -91,11 +91,14 @@
     opacity: 0;
   }
   .circle--slider .circle--rotate > li.active div {
-    font-size: 20px;
+    font-size: 30px;
     background-image: linear-gradient(to right,#9eced4,#98e0e6);
     transition: all 1s;
     border-style: solid;
     border-width: 5px;
+    width: 60px;
+    height: 60px;
+    
   }
   .circle--slider .circle--rotate > li.active div span {
     width: 100%;
